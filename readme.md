@@ -3,10 +3,10 @@
 
 # Feature in Charge
 
-       Andrew | Dhanushi | Jasveer | Navjyot     
-      --------|----------|---------|----------
-      about us page | Cover page | Menu page | Location page
-      reservation page | Payment page | Membership login page | Events page
-      online order page | Feedback page | Career opportunities page | Promotions Page
+Andrew | Dhanushi | Jasveer | Navjyot     
+--------|----------|---------|----------
+about us page | Cover page | Menu page | Location page
+reservation page | Payment page | Membership login page | Events page
+online order page | Feedback page | Career opportunities page | Promotions Page
 
 
