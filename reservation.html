@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Humber Bistro - Reservation</title>
+        <link rel="stylesheet" href="styles/reservation.css">
+        <link rel="icon" href="images/favicon-16x16.png">
+        <meta charset="utf-8">
+        <meta name="description" content="The restaurant’s history lets ourselves remember the original 
+        goal we want, and community contribution is another importance for us since we believe that strongly 
+        linking to local and contributing ourselves’ abilities are the way to respect where we root.">
+        <meta name="keywords" content="humber bistro, humber, bistro, restaurant, reservation, online">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Head setting and more-->
+    </head>
+
+    <body>
+        <header>
+                <h1 id="rname">Humber Bistro</h1>
+              
+        </header>
+        <!--Header--> 
+
+        <nav>
+            <ul>    
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a>
+                    <ul class="sublist">
+                        <li><a href="">menu</a></li>
+                        <li><a href="onlineorder.html">take-out (online)</a></li>
+                        <li><a href="reservation.html">reservation</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Information</a>
+                    <ul class="sublist">
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="">Location</a></li>
+                        <li><a href="">Join membership</a></li>
+                        <li><a href="">Customer feedback</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Specials</a>
+                    <ul class="sublist">
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Promotions</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!--Navigator-->
+
+        <main>
+            <section id="intro">
+                <h2>Before Booking</h2>
+                <ul>
+                    <li><p>Please check our schedule and make your reservation below. We will have it served 
+                        at your convenient place, we offer best services ever!</p></li>
+                    <li><p>For reservation requests, the restaurant only accepts the requests that book one 
+                        hour in advance. Otherwise, the requests will be denied.</p></li>
+                    <li><p>The seats will be remained for only 15 minutes. If customer have any issue, please
+                        let us know as early as possible.</p></li>
+                    <li><p>Booking the party room requires a week in advance. Please <a href="">contact us</a> 
+                        and check whether the place is available.</p></li>
+                </ul>
+            </section>
+           <!--booking rules--> 
+
+            <section id="schedules">
+                <figure class="table">
+                    <figcaption><h2>Schedules</h2></figcaption>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th class="col0"></th>
+                            <th class="col1">Lunch</th>
+                            <th class="col2">Dinner</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="col0">Monday to Saturday</td>
+                            <td class="col1">11:30am to 02:30pm</td>
+                            <td class="col2">05:30pm to 10:00pm</td>
+                        </tr>
+                        </tbody>
+                        <tbody>
+                        <tr>
+                            <td class="col0">Sunday</td>
+                            <td class="col1">10:00am to 02:00pm</td>
+                            <td class="col2">05:00pm to 09:00pm</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </figure>
+            </section>
+            <!--available schedule-->
+
+            <section id="bkform">
+                <h2>Booking Form</h2>
+                <form>
+                    <fieldset>
+                        <legend>Detail</legend>
+                        <section class="time">
+                            <label>Date :</label><input type="date" name="date" id="date" required>
+                            <label>Time :</label><input type="time" name="time" id="dtime" required>
+                        </section>
+                        <section class="people">
+                            <label>Number of People :</label>
+                                <select name="people">
+                                    <option value="2">2 People</option>
+                                    <option value="3">3 People</option>
+                                    <option value="4">4 People</option>
+                                    <option value="5">5 People</option>
+                                    <option value="6">6 People</option>
+                                    <option value="many">Above 6 People</option>
+                            </select>
+                        </section>
+                        <section class="ptitle">
+                            <input type="radio" name="title" value="Mr." ><label>Mr.</label>
+                            <input type="radio" name="title" value="Mrs." ><label>Mrs.</label>
+                        </section>
+                        <section class="pname">
+                            <label>First Name :</label><input type="text" name="fname" id="fname" required>
+                            <label>Last Name :</label><input type="text" name="lname" id="lname" required>
+                        </section>
+                        <section class="contact">
+                            <label>Phone Number :</label><input type="tel" name="phone" id="phone" required>
+                            <label>E-Mail :</label><input type="email" name="email" id="email">
+                        </section>
+                        <section class="psite">
+                            <p class="binfo">Prefer site</p>
+                            <input type="radio" name="site" value="Inside" ><label>Inside</label>
+                            <input type="radio" name="site" value="Outside" ><label>Patio</label>
+                            <input type="radio" name="site" value="Party Room" ><label>Party Room*</label>
+                            <input type="radio" name="site" value="None" ><label>None</label><br>
+                            <p class="notice">* Please check with the restaurant before booking party room.</p>
+                        </section>  
+                        <section id="sreq">
+                            <p class="binfo">Special request</p>
+                            <textarea name="comments" id="comments" cols="100" rows="10">  
+                            </textarea>
+                        </section>
+                        <section id="addinfo">
+                            <p class="binfo">Would you like to receive our information and special offers?</p>
+                            <input type="checkbox" name="announc" id="announc" value="yes">
+                            <label>YES, I'd like to receive information.</label>
+                        </section>
+                    </fieldset>
+                    <br>
+                    <input type="submit" name="submit" value="Submit" id="submit">
+                </form>
+            </section>
+            <!--reservation form-->
+
+            <section id="moreq">
+                <p>If you have any further question, please <a href="">contact us</a>. 
+                    We glad to provide every customer with our best services.</p>
+            </section>
+            <!--question contact to reseaurant-->
+        </main>
+
+
+        <footer>
+            <section class="ft">
+                <a>Copyright &copy; 2020 Humber Bistro <br></a>
+                <a class="email" href="" target="_blank">humberbistro@gmail.com</a>
+            </section>
+        </footer>
+    </body>
+    
+</html>
