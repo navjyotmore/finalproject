@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Feedback</title>
+    <meta name="Description" content="Humber bistro feedback page">
+    <meta name="keyword" content="humber,bistro,feedback,good,excellent,average">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/styles/feedback.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="rname">Humber Bistro</h1>
+
+        </header>
+        <!--Header-->
+<!--Navigation-->
+        <nav>
+            <ul><!--UnOrderlist  for navigation -->
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a>
+                    <ul class="sublist">
+                        <li><a href="/aboutus/menu.html">menu</a></li>
+                        <li><a href="/aboutus/onlineorder.html">take-out (online)</a></li>
+                        <li><a href="/aboutus/reservation.html">reservation</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Information</a>
+                    <ul class="sublist">
+                        <li><a href="/aboutus/aboutus.html">About us</a></li>
+                        <li><a href="/aboutus/location.html">Location</a></li>
+                        <li><a href="/aboutus/membership.html">Join membership</a></li>
+                        <li><a href="/feedback.html">Customer feedback</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Specials</a>
+                    <ul class="sublist">
+                        <li><a href="/aboutus/events.html">Events</a></li>
+                        <li><a href="/aboutus/promotion.html">Promotions</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!--Navigator-->
+
+<!--Feekback form-->
+        <form id="feedback" method="GET">
+            <div class="radiobutton"></div>
+
+            <fieldset>
+
+                <legend>Feedback</legend>
+
+                How do you rate your overall experience?<br><br>
+                <input type="radio" id="bad" name="bad" value="bad" /> <label>Bad</label>
+
+                <input type="radio" id="Good" name="good" value="good" /> <label>Good</label>
+
+                <input type="radio" id="excellent" name="excellent" value="excellent" /> <label>Excellent</label>
+                <div>
+                    <br>
+                    <div>
+                        <label>Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" /> &nbsp; &nbsp;&nbsp;
+                        
+                        <label id="lemail">Email:</label>
+                        <input type="text" id="email" name="email" placeholder="email123@gmail.com" /><br><br>
+                        
+                        <label>Age</label>
+                        &nbsp; &nbsp;&nbsp;<input type="text" id="age" name="age" placeholder="age" />
+                       
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label id="email">Phone</label>
+                        <input type="text" id="phone" name="phone" placeholder="phone" /><br><br>
+                       
+                        Comments:<br>
+                        <textarea rows="7" cols="50"></textarea><br><br>
+                        <input type="submit" id="submit" name="submit" />
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+   
+
+   
+    <footer>
+        <a>Copyright &copy; 2020 Humber Bistro <br></a>
+        <a class="email" href="" target="_blank">humberbistro@gmail.com</a>
+    </footer>
+    <!--footer-->
+
+</body>
