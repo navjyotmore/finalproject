@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Humber Bistro - Events</title>
+        <link rel="stylesheet" href="styles/events.css">
+        <link rel="icon" href="images/favicon-16x16.png">
+        <meta charset="utf-8">
+        <meta name="description" content="At Humber Bistro we believe that strongly linking to locals and
+        so we wanted to provide events that they participate in weekly.">
+        <meta name="keywords" content="humber bistro, humber, bistro, restaurant, events, weekly">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Head setting and more-->
+    </head>
+    <body>
+        <header>
+            <h1 id="rname">Humber Bistro</h1>
+        </header>
+        <!--Header--> 
+        <nav>
+            <ul>    
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a>
+                    <ul class="sublist">
+                        <li><a href="menu.html">menu</a></li>
+                        <li><a href="onlineorder.html">take-out (online)</a></li>
+                        <li><a href="reservation.html">reservation</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Information</a>
+                    <ul class="sublist">
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="membership.html">Join membership</a></li>
+                        <li><a href="feedback.html">Customer feedback</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Specials</a>
+                    <ul class="sublist">
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="promotions.html">Promotions</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!--Navigator-->
+        <main>
+            <section id="intro">
+                <h2>Our Events</h2>        
+                <p>Welcome to our events page, below you will find a table with our 
+                resturants events</p>
+                <p>At Humber Bistro we host an event every Friday night from 6pm - closing.</p>
+                <p>Below is a table with the events for the month of December followed by our RSVP list.</p>
+            </section>
+           <!--events intro--> 
+            <section id="events">
+                <figure class="table">
+                    <figcaption><h2>December Events</h2></figcaption>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th class="col0">Date</th>
+                            <th class="col1">Event</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="col0">December 4th 2020</td>
+                            <td class="col1">Join us on friday to participate in our trivia night and show your knowledge!</td>
+                        </tr>
+                        <tr>
+                            <td class="col0">December 11th 2020</td>
+                            <td class="col1">Join us on friday to participate in our paint night and display your creative!</td>
+                        </tr>
+                        <tr>
+                            <td class="col0">December 18th 2020</td>
+                            <td class="col1">Join us on friday to participcate in our karaoke night and sing your heart out!</td>
+                        </tr>
+                        <tr>
+                            <td class="col0">December 25th 2020</td>
+                            <td class="col1">Join us on friday to participate in our coffee house and open mic night!</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </figure>
+            </section>
+            <!--events table--> 
+            <section id="sign">
+                <h2>Event Sign Up List</h2>
+                <p>Please select the event you would like to attend and provide us with your full name as well as email in order to sign up for the event list!</p>
+                <form>
+                    <label for="cars">Choose an event date below:</label>
+                    <select id="cars" name="cars">
+                        <option value="dec4">December 4th 2020</option>
+                        <option value="dec11">December 11th 2020</option>
+                        <option value="dec18">December 18th 2020</option>
+                        <option value="dec25">December 25th 2020</option>
+                    </select>
+                    <br><br>
+                    <label for="fname">Name: </label><input type="text" id="fname" name="fname"><br><br>
+                    <label for="email">E-Mail Address: </label><input type="text" id="email" name="email"><br><br>
+                    <input type="submit">
+                </form>
+            </section>
+            <!--events sign up list--> 
+            <section id="moreq">
+                <p>If you have any further questions regarding our events page or any general inquries, please <a href="">contact us</a>. 
+                    We are glad to provide every customer with our best services.</p>
+            </section>
+            <!--question contact to reseaurant-->
+        </main>
+        <footer>
+            <section class="ft">
+                <a>Copyright &copy; 2020 Humber Bistro <br></a>
+                <a class="email" href="" target="_blank">humberbistro@gmail.com</a>
+            </section>
+            <!--copyright and email address-->
+        </footer>
+    </body>
+</html>
