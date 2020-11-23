@@ -1,7 +1,7 @@
 /* Display 961px and above*/
 @media only screen and (min-width: 961px){
     html{
-        background-image: url(background.jpg);
+        background-image: url(images/background.jpg);
         background-repeat: repeat;
     }
     body{
@@ -153,7 +153,7 @@
 @media only screen and (min-width: 360px)
                    and (max-width: 630px){
     html{
-        background-image: url(background.jpg);
+        background-image: url(images/background.jpg);
         background-repeat: repeat;
         margin: 0;
     }
@@ -306,7 +306,7 @@
 @media only screen and (min-width: 631px)
                    and (max-width: 960px){
     html{
-        background-image: url(background.jpg);
+        background-image: url(images/background.jpg);
         background-repeat: repeat;
         margin: 0;
     }
