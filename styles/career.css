@@ -246,21 +246,21 @@ body
         }
         @media only screen and (max-width:800px) {
           /* For tablets: */
-           header, nav,main,table, footer {
+           header, nav,main,footer {
             width: 80%;
             padding: 0;
           }
         }
         @media only screen and (max-width:400px) {
           /* For mobile phones: */
-          header, main, nav,table, footer {
+          header, main, nav, footer {
             width: 100%;
             padding: 0;
           }
         }
         @media only screen and (max-width:1120px) {
           /* For deskptop: */
-           header, nav,main , table,footer {
+           header, nav,main , footer {
             width: 80%;
             padding: 0;
           }
