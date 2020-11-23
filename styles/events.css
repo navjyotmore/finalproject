@@ -1,0 +1,679 @@
+@media only screen and (min-width: 961px){
+    html{
+        background-image: url(background.jpg);
+        background-repeat: repeat;
+    }
+    body{
+        max-width: 1040px;
+        padding: 20px;
+        margin: 20px auto;
+    }
+    header{
+        background-color: whitesmoke;
+        width: 100%;
+        margin: 0;
+        border: 5px groove;
+        padding: 20px;
+    }
+    header h1{
+        margin: 0;
+        font-size: 400%;
+        font-weight: bolder;
+        font-family: 'Edwardian Script ITC';
+        padding: 10px;
+    }
+    main{
+        width: 100%;
+        height: auto;
+        border: 5px groove;
+        background-color: whitesmoke;
+        margin:  0;
+        padding: 20px;
+    }
+    nav{
+        background-color: whitesmoke;
+        margin: 0;
+        width: 100%;
+        height: 51px;
+        border: 5px groove;
+        padding: 0 20px;
+    }
+    nav ul{
+        list-style-type: none;
+        position: relative;
+        padding: 0;
+        margin: auto;
+    }
+    nav ul li{
+        float: left;
+        width: 25%;
+        padding: 0px;
+        margin: auto;
+    }
+    nav ul li:hover > ul{
+        width: 25%;
+        display: block;
+    }
+    .sublist{
+        display: none;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        top:100%;
+    }
+    .sublist li{
+        width: 100%;
+        float: none;
+    }
+    nav > ul::after{
+        content:"";
+        display: block;
+        clear: both;
+    }
+    nav ul li a{
+        display: block;
+        width: 100%;
+        padding: 14px 0px;
+        overflow: hidden;
+    }
+    nav ul ul li a{
+        display: block;
+        width:100%;
+        padding: 14px 0px;
+        margin: 0;
+        overflow: hidden;
+    }
+    nav ul li a{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Georgia;
+        color: black;
+        text-decoration: none;
+    }
+    nav ul ul li a{
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Georgia;
+        color: white;
+        background-color: grey;
+        text-decoration: none;
+        border: 3px groove;
+    }
+    nav ul li a:hover:not(.active) {
+        color: white;
+        background-color: grey;
+        border: 3px groove;
+    }
+    nav ul ul li a:hover:not(.active) {
+        color: rgb(172, 172, 0);
+        background-color: grey;
+        border: 3px groove;
+    }
+    #intro{
+        padding: 0 20px;
+    }
+    #intro h2{
+        color: black;
+        font-weight: bolder;
+        font-family: Georgia;
+        text-decoration: underline;
+    }
+    #intro p{
+        font-size: 14pt;
+    }
+    #events{
+        padding: 0 20px;
+    }
+    .table{
+        margin: auto;
+        padding: 10px 0;
+    }
+    .table table{
+        margin: auto;
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid gray;
+    }
+    figcaption{
+        color: black;
+        font-weight: bolder;
+        font-family: Georgia;
+        text-decoration: underline;
+    }
+    th, td{
+        border: 2px solid gray;
+        color: black;
+        padding: .25em;
+    }
+    thead{
+        font-size: 16pt;
+        text-align: center;
+        font-family: Georgia;
+    }
+    .col0{
+        width: 30%;
+        font-weight: bolder;
+        font-family: Georgia;
+        font-size: 16pt;
+        text-align: left;
+        text-indent: 1em;
+    }
+    th{
+        background-color: grey;
+    }
+    tbody .col0{
+        background-color: #D3C9CE;
+    }
+    tbody .col1, tbody .col2{
+        font-family: Georgia;
+        font-weight: bold;
+        font-size: 12pt;
+        text-indent: 2em;
+        background-color:#F5E1FD;
+    }
+    #sign{
+        padding: 0 20px;
+    }
+    #sign p{
+        font-size: 14pt;
+}
+    #sign h2{
+        color: black;
+        font-weight: bolder;
+        font-family: Georgia;
+        text-decoration: underline;
+    }
+    #cars{
+        font-size: 14pt;
+        font-family: Georgia;
+
+    }
+    label{
+        font-size: 14pt;
+        font-family: Georgia;
+    }
+    #fname{
+        width: 37.5%;
+    }
+    #email{
+        width: 29.6%;
+    }
+    input{
+        font-size: 14pt;
+        font-family: Georgia;
+    }
+    #moreq{
+        padding: 0 20px;
+        font-weight: bold;
+    }
+    footer{
+        text-align: center;
+        width: 100%;
+        margin: auto 0;
+        padding: 20px;
+        margin-top: 50px;
+        clear: both;
+    }
+    footer a{
+        font-family: Cambria;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        color: gray; 
+    }
+}
+/* Display 360px to 630px*/
+@media only screen and (min-width: 360px)
+                   and (max-width: 630px){
+    html{
+        background-image: url(background.jpg);
+        background-repeat: repeat;
+        margin: 0;
+    }
+    body{
+        max-width: 414px;
+        width: 95%;
+        margin: auto;
+    }
+    header{
+        background-color: whitesmoke;
+        max-width: 414px;
+        width: 95%;
+        margin: 0;
+        border: 5px groove;
+        padding: 20px;
+    }
+    header h1{
+        margin: 0;
+        font-size: 400%;
+        font-weight: bolder;
+        font-family: 'Edwardian Script ITC';
+    }
+    main{
+        max-width: 414px;
+        width: 100%;
+        border: 5px groove;
+        background-color: whitesmoke;
+        margin:  0;
+        padding: 0 10px;
+    }
+    nav{
+        background-color: whitesmoke;
+        margin: 0;
+        width: 95%;
+        height: 30px;
+        border: 5px groove;
+        padding: 0 20px;
+    }
+    nav ul{
+        list-style-type: none;
+        position: relative;
+        padding: 0;
+        margin: auto;
+    }
+    nav ul li{
+        float: left;
+        width: 25%;
+        padding: 0px;
+        margin: auto;
+    }
+    nav ul li:hover > ul{
+        width: 25%;
+        display: block;
+    }
+    .sublist{
+        display: none;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        top:100%;
+    }
+    .sublist li{
+        width: 100%;
+        float: none;
+    }
+    nav > ul::after{
+        content:"";
+        display: block;
+        clear: both;
+    }
+    nav ul li a{
+        display: block;
+        width: 100%;
+        padding: 7px 0px;
+        overflow: hidden;
+    }
+    nav ul ul li a{
+        display: block;
+        width:100%;
+        padding: 7px 0px;
+        margin: 0;
+        overflow: hidden;
+    }
+    nav ul li a{
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Georgia;
+        color: black;
+        text-decoration: none;
+    }
+    nav ul ul li a{
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Georgia;
+        color: white;
+        background-color: grey;
+        text-decoration: none;
+        border: 2px groove;
+    }
+    nav ul li a:hover:not(.active) {
+        color: white;
+        background-color: grey;
+        border: 2px groove;
+    }
+    nav ul ul li a:hover:not(.active) {
+        color: rgb(172, 172, 0);
+        background-color: grey;
+        border: 2px groove;
+    }
+    #intro{
+        padding: 0 10px;
+    }
+    #intro h2{
+        color: black;
+        font-weight: bolder;
+        font-family: Georgia;
+        text-decoration: underline;
+    }
+    #intro p{
+        font-size: 14pt;
+    }
+    #events{
+        padding: 0 10px;
+    }
+    .table{
+        margin: auto;
+        padding: 10px 0;
+    }
+    .table table{
+        margin: auto;
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid gray;
+    }
+    figcaption{
+        color: black;
+        font-weight: bolder;
+        font-family: Georgia;
+        text-decoration: underline;
+    }
+    th, td{
+        border: 2px solid gray;
+        color: black;
+        padding: .25em;
+    }
+    thead{
+        font-size: 12pt;
+        text-align: center;
+        font-family: Georgia;
+    }
+    .col0{
+        width: 30%;
+        font-weight: bolder;
+        font-family: Georgia;
+        font-size: 12pt;
+        text-align: left;
+        text-indent: 1em;
+    }
+    th{
+        background-color: gray;
+    }
+    tbody .col0{
+        background-color: #D3C9CE;
+    }
+    tbody .col1, tbody .col2{
+        font-family: Georgia;
+        font-weight: bold;
+        font-size: 12pt;
+        text-indent: 2em;
+        background-color: #F5E1FD;
+    }
+    #sign{
+        padding: 0 20px;
+    }
+    #sign p{
+        font-size: 14pt;
+}
+    #sign h2{
+        color: black;
+        font-weight: bolder;
+        font-family: Georgia;
+        text-decoration: underline;
+    }
+    #cars{
+        font-size: 14pt;
+        font-family: Georgia;
+    }
+    label{
+        font-size: 14pt;
+        font-family: Georgia;
+    }
+    #fname{
+        width: 37.5%;
+    }
+    #email{
+        width: 29.6%;
+    }
+    input{
+        font-size: 14pt;
+        font-family: Georgia;
+    }
+    #moreq{
+        padding: 0 20px;
+        font-weight: bold;
+    }
+    footer{
+        text-align: center;
+        max-width: 414px;
+        width: 95%;
+        margin: auto 0;
+    }
+    footer a{
+        font-family: Cambria;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        color: gray; 
+    }
+}
+
+/* Display 631px to 960px*/
+@media only screen and (min-width: 631px)
+                   and (max-width: 960px){
+    html{
+        background-image: url(background.jpg);
+        background-repeat: repeat;
+        margin: 0;
+    }
+    body{
+        max-width: 860px;
+        width: 95%;
+        margin: 0%;
+    }
+    header{
+        background-color: whitesmoke;
+        max-width: 860px;
+        width: 95%;
+        margin: 0%;
+        border: 5px groove;
+        padding: 20px;
+    }
+    header h1{
+        margin: 0;
+        font-size: 400%;
+        font-weight: bolder;
+        font-family: 'Edwardian Script ITC';
+    }
+    main{
+        max-width: 860px;
+        width: 95%;
+        border: 5px groove;
+        background-color: whitesmoke;
+        margin:  0;
+        padding: 0 20px;
+    }
+    nav{
+        background-color: whitesmoke;
+        margin: 0;
+        width: 95%;
+        height: 51px;
+        border: 5px groove;
+        padding: 0 20px;
+    }
+    nav ul{
+        list-style-type: none;
+        position: relative;
+        padding: 0;
+        margin: auto;
+    }
+    nav ul li{
+        float: left;
+        width: 25%;
+        padding: 0px;
+        margin: auto;
+    }
+    nav ul li:hover > ul{
+        width: 25%;
+        display: block;
+    }
+    .sublist{
+        display: none;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        top:100%;
+    }
+    .sublist li{
+        width: 100%;
+        float: none;
+    }
+    nav > ul::after{
+        content:"";
+        display: block;
+        clear: both;
+    }
+    nav ul li a{
+        display: block;
+        width: 100%;
+        padding: 14px 0px;
+        overflow: hidden;
+    }
+    nav ul ul li a{
+        display: block;
+        width:100%;
+        padding: 14px 0px;
+        margin: 0;
+        overflow: hidden;
+    }
+    nav ul li a{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Georgia;
+        color: black;
+        text-decoration: none;
+    }
+    nav ul ul li a{
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Georgia;
+        color: white;
+        background-color: grey;
+        text-decoration: none;
+        border: 3px groove;
+    }
+    nav ul li a:hover:not(.active) {
+        color: white;
+        background-color: grey;
+        border: 3px groove;
+    }
+    nav ul ul li a:hover:not(.active) {
+        color: rgb(172, 172, 0);
+        background-color: grey;
+        border: 3px groove;
+    }
+    #intro{
+        padding: 0 10px;
+    }
+    #intro h2{
+        color: black;
+        font-weight: bolder;
+        font-family: Georgia;
+        text-decoration: underline;
+    }
+    #intro p{
+        font-size: 14pt;
+    }
+    #events{
+        padding: 0 10px;
+    }
+    .table{
+        margin: auto;
+        padding: 10px 0;
+    }
+    .table table{
+        margin: auto;
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid gray;
+    }
+    figcaption{
+        color: black;
+        font-weight: bolder;
+        font-family: Georgia;
+        text-decoration: underline;
+    }
+    th, td{
+        border: 2px solid gray;
+        color: black;
+        padding: .25em;
+    }
+    thead{
+        font-size: 12pt;
+        text-align: center;
+        font-family: Georgia;
+    }
+    .col0{
+        width: 30%;
+        font-weight: bolder;
+        font-family: Georgia;
+        font-size: 12pt;
+        text-align: left;
+        text-indent: 1em;
+    }
+    th{
+        background-color: grey;
+    }
+    tbody .col0{
+        background-color: #D3C9CE;
+    }
+    tbody .col1, tbody .col2{
+        font-family: Georgia;
+        font-weight: bold;
+        font-size: 12pt;
+        text-indent: 2em;
+        background-color: #F5E1FD;
+    }
+    #sign{
+        padding: 0 20px;
+    }
+    #sign p{
+        font-size: 14pt;
+}
+    #sign h2{
+        color: black;
+        font-weight: bolder;
+        font-family: Georgia;
+        text-decoration: underline;
+    }
+    #cars{
+        font-size: 14pt;
+        font-family: Georgia;
+    }
+    label{
+        font-size: 14pt;
+        font-family: Georgia;
+    }
+    #fname{
+        width: 37.5%;
+    }
+    #email{
+        width: 29.6%;
+    }
+    input{
+        font-size: 14pt;
+        font-family: Georgia;
+    }
+    #moreq{
+        padding: 0 20px;
+        font-weight: bold;
+    }
+    footer{
+        text-align: center;
+        max-width: 860px;
+        width: 95%;
+        margin: auto 0;
+    }
+    footer a{
+        font-family: Cambria;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        color: gray; 
+    }
+}
