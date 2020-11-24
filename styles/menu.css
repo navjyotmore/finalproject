@@ -21,7 +21,7 @@ header h1{
     font-size: 400%;
     font-weight: bolder;
     font-family: 'Edwardian Script ITC';
-    padding: 15px;
+    padding: 10px;
 }
 nav{
     background-color: whitesmoke;
@@ -235,16 +235,6 @@ h3{
          margin: 0;
      }
  
-
-
-#jname{
-    display: inline-block;
-    font-size: 300%;
-    font-weight: bolder;
-    font-family: 'Edwardian Script ITC';
-    padding: 10px;
-}
-
     footer{
         text-align: center;
         width: 100%;
