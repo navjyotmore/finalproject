@@ -1,15 +1,18 @@
 /* Display 961px and above*/
 @media only screen and (min-width: 961px) {
-
+  html{
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+  }
   body {
-    box-shadow: 0 0 10px 0 gray;
-    margin: 4%;
-
+    max-width: 1040px;
+    padding: 20px;
+    margin: 20px auto;
   }
 
   header {
     background-color: whitesmoke;
-    width: 96.5%;
+    width: 100%;
     margin: 0;
     border: 5px groove;
     padding: 20px;
@@ -31,26 +34,22 @@
     border: 5px groove;
     padding: 0 20px;
   }
-
   nav ul {
     list-style-type: none;
     position: relative;
     padding: 0;
     margin: auto;
   }
-
   nav ul li {
     float: left;
     width: 25%;
     padding: 0px;
     margin: auto;
   }
-
   nav ul li:hover>ul {
     width: 25%;
     display: block;
   }
-
   .sublist {
     display: none;
     position: absolute;
@@ -58,7 +57,6 @@
     margin: 0;
     top: 100%;
   }
-
   .sublist li {
     width: 100%;
     float: none;
@@ -117,37 +115,7 @@
     border: 3px groove;
   }
 
-  nav {
-    width: 96.5%;
-  }
 
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: auto;
-  }
-
-  nav ul li {
-    float: left;
-    width: 25%;
-    margin: auto;
-  }
-
-  nav ul li a {
-    display: block;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Georgia;
-    color: black;
-    padding: 14px 20px;
-    margin: auto;
-  }
-
-  nav ul li a:hover:not(.active) {
-    color: white;
-    background-color: black;
-  }
 
   .imgpay {
     width: 45%;
@@ -168,8 +136,7 @@
   }
 
   .formContainer {
-
-
+    
     margin: 5%;
 
   }
