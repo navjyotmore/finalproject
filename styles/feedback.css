@@ -106,7 +106,6 @@
     border: 3px groove;
   }
   fieldset{
-    margin-top: 7%;
    width: 60%;
    margin-left: 23%;
    background-color: rgb(137, 218, 221);
@@ -114,15 +113,21 @@
  #submit{
   margin-left: 45%;
 }
-
-  footer{
-
-    text-align: center;
-    width: 100%;
-    margin: auto;
-    padding: 20px;
-    margin-top: 50px;
-    clear: both;
+ form{
+   width: 100%;
+   height: auto;
+   border: 5px groove;
+   background-color: whitesmoke;
+   margin:  0;
+   padding: 20px;
+ } 
+footer{
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+  clear: both;
 }
 footer a{
     font-family: Cambria;
