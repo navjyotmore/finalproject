@@ -12,6 +12,8 @@
     max-width: 1040px;
     margin: 10px auto;
     background-color: whitesmoke;
+    background-image: url(../images/headwave.jpg);
+    background-repeat: no-repeat;
     width: 96.8%;
     border: 5px groove;
     padding: 20px;

@@ -1,7 +1,7 @@
 /* Display 961px and above*/
 @media only screen and (min-width: 961px){
     html{
-        background-image: url(../images/onlineorder/background.jpg);
+        background-image: url(../images/background.jpg);
         background-repeat: repeat;
     }
     body{
@@ -11,6 +11,8 @@
     }
     header{
         background-color: whitesmoke;
+        background-image: url(../images/headwave.jpg);
+        background-repeat: no-repeat;
         width: 100%;
         margin: 0;
         border: 5px groove;
@@ -359,7 +361,7 @@
 @media only screen and (min-width: 360px)
                    and (max-width: 630px){
     html{
-        background-image: url(../images/onlineorder/background.jpg);
+        background-image: url(../images/background.jpg);
         background-repeat: repeat;
         margin: 0;
     }
@@ -724,7 +726,7 @@
 @media only screen and (min-width: 631px)
                    and (max-width: 960px){
     html{
-        background-image: url(../images/onlineorder/background.jpg);
+        background-image: url(../images/background.jpg);
         background-repeat: repeat;
         margin: 0;
     }

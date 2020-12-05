@@ -16,7 +16,6 @@
     <body>
         <header>
                 <h1 id="rname">Humber Bistro</h1>
-              
         </header>
         <!--Header--> 
 
@@ -52,7 +51,10 @@
         <main>
             <section class="au">
                 <figure id="au-image">
-                    <img src="images/aboutus/Aboutus.jpg" alt="restaurnt image">
+                    <button class="mov" id="pre1" onclick="ChangeImage1(-1)">&#8592</button>
+                    <img src="images/aboutus/Aboutus.jpg" name="slideshow1" id="slideshow1" alt="restaurnt image">
+                    <button class="mov" id="nex1" onclick="ChangeImage1(1)">&#8594</button>
+                    <script src="/js/aboutus_slideshow.js"></script>
                 </figure>
                 <section id="au-article">
                     <h2 class="title">About Us</h2>
@@ -66,7 +68,10 @@
             
             <section class="oi">
                 <figure id="oi-image">
-                    <img src="images/aboutus/Ingredients.jpg" alt="sample ingredients">
+                    <button class="mov" id="pre2" onclick="ChangeImage2(-1)">&#8592</button>
+                    <img src="images/aboutus/Ingredients.jpg" name="slideshow2" id="slideshow2" alt="sample ingredients">
+                    <button class="mov" id="nex2" onclick="ChangeImage2(1)">&#8594</button>
+                    <script src="/js/aboutus_slideshow.js"></script>
                 </figure>
                 <section id="oi-article">
                     <h2 class="title">Our Ingredients</h2>
@@ -74,13 +79,17 @@
                         price for the meals, we still mainta in our food quality as the best from the 
                         farms to your table. We always make sure that cooperated suppliers require 
                         providing valid certification for their supplies. Let our customer not worry 
-                        about the quality of food is our priority.</p>            
+                        about the quality of food is our priority.</p>          
                 </section>
+                <script></script>
             </section>
 
             <section class="os">
                 <figure id="os-image">
-                    <img src="images/aboutus/suppliers.jpg" alt="sample supplier">
+                    <button class="mov" id="pre3" onclick="ChangeImage3(-1)">&#8592</button>
+                    <img src="images/aboutus/suppliers.jpg" name="slideshow3" id="slideshow3" alt="sample supplier">
+                    <button class="mov" id="nex3" onclick="ChangeImage3(1)">&#8594</button>
+                    <script src="/js/aboutus_slideshow.js"></script>
                 </figure>
                 <section id="os-article">    
                     <h2 class="title">Our suppliers</h2>
@@ -91,11 +100,15 @@
                         health because of less human-made chemical compound and more eco-friendly to the 
                         fields.</p>
                 </section>
+                <script></script>
             </section>
 
             <section class="oca">
                 <figure id="oca-image">
-                    <img src="images/aboutus/CoummityActivities.jpg" alt="sample activities">
+                    <button class="mov" id="pre4" onclick="ChangeImage4(-1)">&#8592</button>
+                    <img src="images/aboutus/CoummityActivities.jpg"  name="slideshow4" id="slideshow4" alt="sample activities">
+                    <button class="mov" id="nex4" onclick="ChangeImage4(1)">&#8594</button>
+                    <script src="/js/aboutus_slideshow.js"></script>
                 </figure>
                 <section id="oca-article">
                     <h2 class="title">Our Coummity Activities</h2>
@@ -104,7 +117,8 @@
                         cooking course for seniors living in long-term care centre. We also plan to 
                         cooperate with local third-party groups to start some free courses for teens 
                         who have interests in restaurant industry. </p>
-                </section> 
+                </section>
+                <script></script> 
             </section>
 
         </main>

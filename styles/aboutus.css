@@ -1,7 +1,7 @@
 /* Display 961px and above*/
 @media only screen and (min-width: 961px){
     html{
-        background-image: url(../images/aboutus/background.jpg);
+        background-image: url(../images/background.jpg);
         background-repeat: repeat;
     }
     body{
@@ -11,6 +11,8 @@
     }
     header{
         background-color: whitesmoke;
+        background-image: url(../images/headwave.jpg);
+        background-repeat: no-repeat;
         width: 100%;
         margin: 0;
         border: 5px groove;
@@ -152,7 +154,7 @@
         margin: auto;
     }
     #au-article{
-        width: 65%;
+        width: 55%;
         height: fit-content;
         float: right;
         padding: 10px;
@@ -175,7 +177,7 @@
         margin: auto;
     }
     #oi-article{
-        width: 65%;
+        width: 55%;
         height: fit-content;
         float: left;
         padding: 10px;
@@ -198,7 +200,7 @@
         margin: auto;
     }
     #os-article{
-        width: 65%;
+        width: 55%;
         height: fit-content;
         float: right;
         padding: 10px;
@@ -220,7 +222,7 @@
         margin: auto;
     }
     #oca-article{
-        width: 65%;
+        width: 55%;
         height: fit-content;
         float: left;
         padding: 10px;
@@ -247,7 +249,7 @@
 @media only screen and (min-width: 360px)
                    and (max-width: 630px){
     html{
-        background-image: url(../images/aboutus/background.jpg);
+        background-image: url(../images/background.jpg);
         background-repeat: repeat;
         margin: 0;
     }
@@ -258,14 +260,17 @@
     }
     header{
         background-color: whitesmoke;
+        background-image: url(../images/headwave1.jpg);
+        background-repeat: no-repeat;
         max-width: 414px;
         width: 95%;
+        padding: 0 20px;
         margin: 0;
         border: 5px groove;
     }
     header h1{
         margin: 0;
-        font-size: 400%;
+        font-size: 300%;
         font-weight: bolder;
         font-family: 'Edwardian Script ITC';
     }
@@ -387,8 +392,8 @@
     .au{
         padding: 0;
         margin: auto;
-        border: 0;
         width: 100%;
+        height: 200px;
         clear: both;
         border-bottom: 2px dashed gray;
     }
@@ -398,7 +403,7 @@
         height: fit-content;
         float: left;
         border: 5px groove;
-        margin: 50px 0 0 0;
+        margin: 0;
     }
     #au-article{
         float: right;
@@ -408,8 +413,8 @@
     .oi{
         padding: 0;
         margin: auto;
-        border: 0;
         width: 100%;
+        height: 200px;
         clear: both;
         border-bottom: 2px dashed gray;
     }
@@ -420,7 +425,6 @@
         float: right;
         border: 5px groove;
         margin: 0;
-        margin: 50px 0 0 0;
     }
     #oi-article{
         float: left;
@@ -430,8 +434,8 @@
     .os{
         padding: 0;
         margin: auto;
-        border: 0;
         width: 100%;
+        height: 200px;
         clear: both;
         border-bottom: 2px dashed gray;
     }
@@ -442,7 +446,6 @@
         float: left;
         border: 5px groove;
         margin: 0;
-        margin: 50px 0 0 0;
     }
     #os-article{
         float: right;
@@ -452,8 +455,8 @@
     .oca{
         padding: 0;
         margin: auto;
-        border: 0;
         width: 100%;
+        height: 200px;
         clear: both;
     }
     #oca-image{
@@ -463,7 +466,6 @@
         float: right;
         border: 5px groove;
         margin: 0;
-        margin: 50px 0 0 0;
     }
     #oca-article{
         float: left;
@@ -489,7 +491,7 @@
 @media only screen and (min-width: 631px)
                    and (max-width: 960px){
     html{
-        background-image: url(../images/aboutus/background.jpg);
+        background-image: url(../images/background.jpg);
         background-repeat: repeat;
         margin: 0;
     }
@@ -500,8 +502,11 @@
     }
     header{
         background-color: whitesmoke;
+        background-image: url(../images/headwave2.jpg);
+        background-repeat: no-repeat;
         max-width: 860px;
         width: 95%;
+        padding: 0 20px;
         margin: 0;
         border: 5px groove;
     }
@@ -619,7 +624,7 @@
         font-family: 'Cambria';
     }
     img{
-        max-width: 100%;
+        max-width: 95%;
     }
     span{
         font-size: 150%;
@@ -631,16 +636,16 @@
         margin: auto;
         border: 0;
         width: 100%;
+        height: 300px;
         clear: both;
         border-bottom: 2px dashed gray;
     }
     #au-image{
         display: block;
         width: 30%;
-        height: fit-content;
         float: left;
         border: 5px groove;
-        margin: 30px 0 0 0;
+        margin: 0;
     }
     #au-article{
         float: right;
@@ -652,6 +657,7 @@
         margin: auto;
         border: 0;
         width: 100%;
+        height: 300px;
         clear: both;
         border-bottom: 2px dashed gray;
     }
@@ -662,7 +668,6 @@
         float: right;
         border: 5px groove;
         margin: 0;
-        margin: 30px 0 0 0;
     }
     #oi-article{
         float: left;
@@ -674,6 +679,7 @@
         margin: auto;
         border: 0;
         width: 100%;
+        height: 300px;
         clear: both;
         border-bottom: 2px dashed gray;
     }
@@ -684,7 +690,6 @@
         float: left;
         border: 5px groove;
         margin: 0;
-        margin: 30px 0 0 0;
     }
     #os-article{
         float: right;
@@ -696,6 +701,7 @@
         margin: auto;
         border: 0;
         width: 100%;
+        height: 300px;
         clear: both;
     }
     #oca-image{
@@ -705,7 +711,6 @@
         float: right;
         border: 5px groove;
         margin: 0;
-        margin: 30px 0 0 0;
     }
     #oca-article{
         float: left;
