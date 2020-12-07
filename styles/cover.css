@@ -5,15 +5,16 @@
   }
 
   html {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
     width: 100%;
   }
 
   header {
     background-color: whitesmoke;
     background-image: url(/images/headwave.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
-    width: 96.8%;
+    width: 100%;
     margin: 0;
     border: 5px groove;
     padding: 20px;
@@ -27,20 +28,15 @@
     padding: 10px;
   }
 
-
-
   body {
-    background-color: rgb(248, 215, 215);
-    padding: 1%;
-
-    width: 100%;
+    max-width: 1040px;
+    padding: 20px;
+    margin: 20px auto;
   }
 
 
   #imageheader {
-    margin-top: 10px;
     height: 500px;
-
   }
 
 
@@ -101,7 +97,8 @@
   .menuContainer {
     position: relative;
     max-width: 800px;
-
+    margin-left: 8px;
+    margin-bottom: 8px;
   }
 
   .menuContainer img {
@@ -126,6 +123,7 @@
     position: relative;
     max-width: 800px;
     margin-left: 8px;
+    margin-bottom: 8px;
   }
 
   .revContainer img {
@@ -237,7 +235,8 @@
   .eventContainer {
     position: relative;
     max-width: 800px;
-
+    margin-left: 6px ;
+    margin-bottom: 8px;
   }
 
   .eventContainer img {
@@ -261,13 +260,13 @@
   .imgpromotion {
     margin-left: 7px;
     width: 500px;
+    
   }
-
 
   .promotionContainer {
     position: relative;
     max-width: 800px;
-
+    margin-bottom: 8px;
   }
 
   .promotionContainer img {
@@ -297,7 +296,7 @@
   .careerContainer {
     position: relative;
     max-width: 800px;
-
+    margin-left: 2px;
   }
 
   .careerContainer img {
@@ -336,7 +335,8 @@
   .membershipContainer {
     position: relative;
     max-width: 800px;
-
+    margin-left: 6px ;
+    margin-bottom: 8px;
   }
 
   .membershipContainer img {
@@ -366,7 +366,8 @@
   .feedbackContainer {
     position: relative;
     max-width: 800px;
-
+    margin-left: 6px ;
+    margin-bottom: 8px;
   }
 
   .feedbackContainer img {
@@ -396,7 +397,8 @@
   .contactContainer {
     position: relative;
     max-width: 800px;
-
+    margin-left: 2px ;
+    margin-bottom: 8px;
   }
 
   .contactContainer img {

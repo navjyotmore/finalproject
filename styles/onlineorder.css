@@ -151,6 +151,44 @@
         width: 100%;
         height: 100%;
     }
+    .col0{
+        width: 80%;
+        font-family: Georgia;
+        font-weight: bolder;
+        font-size: 14pt;
+        color: maroon;
+    }
+    .col1{
+        width: 10%; 
+        font-family: Georgia;
+        font-weight: bolder;
+        font-size: 14pt;
+        color: maroon;
+    }
+    .col2{
+        width: 10%;
+        font-family: Georgia;
+        font-weight: bolder;
+        font-size: 14pt;
+        color: maroon;
+    }    
+    .col2 select{
+        width: 100%;
+    }
+    #addcart{
+        font-size: 12pt;
+    }
+    main table{
+        width: 100%;
+        height: 165px;
+    }
+    main th{
+        height: 51px;
+        border-bottom: 1px solid maroon;
+    } 
+    main td{
+        height: 52px; 
+    }
     #lcontext1{
         grid-row: 1 / 2; grid-column: 1 / 3;
         padding: 0 10px;
@@ -161,38 +199,6 @@
         color: white;
         padding: 5px;
         background-color: maroon;
-    }
-    #lcontext1 table{
-        width: 100%;
-        height: 165px;
-    }
-    #lcontext1 th{
-        height: 51px;
-        border-bottom: 1px solid maroon;
-    } 
-    #lcontext1 td{
-        height: 52px; 
-    }
-    #lcontext1 .col0{
-        width: 80%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    } 
-    #lcontext1 .col1{
-        width: 10%; 
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #lcontext1 .col2{
-        width: 10%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #lcontext1 .col2 select{
-        width: 100%;
     }
     #rcontext1{
         grid-row: 2 / 3; grid-column: 2 / 4;
@@ -205,38 +211,6 @@
         padding: 5px;
         background-color: maroon;
     }
-    #rcontext1 table{
-        width: 100%;
-        height: 165px;
-    }
-    #rcontext1 th{
-        height: 51px;
-        border-bottom: 1px solid maroon;
-    } 
-    #rcontext1 td{
-        height: 52px; 
-    }
-    #rcontext1 .col0{
-        width: 80%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    } 
-    #rcontext1 .col1{
-        width: 10%; 
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #rcontext1 .col2{
-        width: 10%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #rcontext1 .col2 select{
-        width: 100%;
-    }
     #lcontext2{
         grid-row: 3 / 4; grid-column: 1 / 3;
         padding: 0 10px;
@@ -247,38 +221,6 @@
         color: white;
         padding: 5px;
         background-color: maroon;
-    }
-    #lcontext2 table{
-        width: 100%;
-        height: 165px;
-    }
-    #lcontext2 th{
-        height: 51px;
-        border-bottom: 1px solid maroon;
-    } 
-    #lcontext2 td{
-        height: 52px; 
-    }
-    #lcontext2 .col0{
-        width: 80%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    } 
-    #lcontext2 .col1{
-        width: 10%; 
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #lcontext2 .col2{
-        width: 10%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #lcontext2 .col2 select{
-        width: 100%;
     }
     #rcontext2{
         grid-row: 4 / 5; grid-column: 2 / 4;
@@ -294,34 +236,6 @@
     #rcontext2 table{
         width: 100%;
         height: 165px;
-    }
-    #rcontext2 th{
-        height: 51px;
-        border-bottom: 1px solid maroon;
-    } 
-    #rcontext2 td{
-        height: 52px; 
-    }
-    #rcontext2 .col0{
-        width: 80%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    } 
-    #rcontext2 .col1{
-        width: 10%; 
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #rcontext2 .col2{
-        width: 10%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #rcontext2 .col2 select{
-        width: 100%;
     }
     form{
         padding: 10px 0;
@@ -356,6 +270,52 @@
         text-align: center;
         color: gray; 
     }
+
+    #cart{
+        background-color: whitesmoke;
+        border: 5px groove;
+        width: 120px;
+        height: 150px;
+        display: grid;
+        grid-template-columns: 10px 100px 10px;
+        grid-template-rows: 80px 40px 30px;
+        grid-gap: 2px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    #pic{
+        grid-row: 1 / 2; grid-column: 2 / 3;
+        margin: auto;
+    }
+    #pic img{
+        max-width: 100%;
+        height: auto;
+    }
+    #display{
+        grid-row: 2 / 3; grid-column: 2 / 3;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 32px;
+        width: 100%;
+        height: 80%;
+        margin: auto;
+    }
+    #remove{
+        grid-row: 3 / 4; grid-column: 2 / 3;
+        width: 100%;
+        height: 80%;
+        margin: 0;
+        position: relative;
+    }
+    #rm{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
 }
 /* Display 360px and 630px */
 @media only screen and (min-width: 360px)
@@ -368,18 +328,21 @@
     body{
         max-width: 414px;
         width: 95%;
-        margin: auto;
+        margin: 20px auto;
     }
     header{
         background-color: whitesmoke;
+        background-image: url(../images/headwave1.jpg);
+        background-repeat: no-repeat;
         max-width: 414px;
         width: 95%;
+        padding: 0 20px;
         margin: 0;
         border: 5px groove;
     }
     header h1{
         margin: 0;
-        font-size: 400%;
+        font-size: 300%;
         font-weight: bolder;
         font-family: 'Edwardian Script ITC';
     }
@@ -510,6 +473,44 @@
         width: 100%;
         height: 100%;
     }
+    .col0{
+        width: 80%;
+        font-family: Georgia;
+        font-weight: bolder;
+        font-size: 10pt;
+        color: maroon;
+    }
+    .col1{
+        width: 10%; 
+        font-family: Georgia;
+        font-weight: bolder;
+        font-size: 10pt;
+        color: maroon;
+    }
+    .col2{
+        width: 10%;
+        font-family: Georgia;
+        font-weight: bolder;
+        font-size: 10pt;
+        color: maroon;
+    }    
+    .col2 select{
+        width: 100%;
+    }
+    #addcart{
+        font-size: 8pt;
+    }
+    main table{
+        width: 100%;
+        height: 165px;
+    }
+    main th{
+        height: 51px;
+        border-bottom: 1px solid maroon;
+    } 
+    main td{
+        height: 52px; 
+    }
     #lcontext1{
         grid-row: 1 / 2; grid-column: 1 / 3;
         padding: 0 10px;
@@ -520,38 +521,6 @@
         color: white;
         padding: 5px;
         background-color: maroon;
-    }
-    #lcontext1 table{
-        width: 100%;
-        height: 165px;
-    }
-    #lcontext1 th{
-        height: 51px;
-        border-bottom: 1px solid maroon;
-    } 
-    #lcontext1 td{
-        height: 52px; 
-    }
-    #lcontext1 .col0{
-        width: 80%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    } 
-    #lcontext1 .col1{
-        width: 10%; 
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #lcontext1 .col2{
-        width: 10%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #lcontext1 .col2 select{
-        width: 100%;
     }
     #rcontext1{
         grid-row: 2 / 3; grid-column: 2 / 4;
@@ -564,38 +533,6 @@
         padding: 5px;
         background-color: maroon;
     }
-    #rcontext1 table{
-        width: 100%;
-        height: 165px;
-    }
-    #rcontext1 th{
-        height: 51px;
-        border-bottom: 1px solid maroon;
-    } 
-    #rcontext1 td{
-        height: 52px; 
-    }
-    #rcontext1 .col0{
-        width: 80%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    } 
-    #rcontext1 .col1{
-        width: 10%; 
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #rcontext1 .col2{
-        width: 10%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #rcontext1 .col2 select{
-        width: 100%;
-    }
     #lcontext2{
         grid-row: 3 / 4; grid-column: 1 / 3;
         padding: 0 10px;
@@ -606,38 +543,6 @@
         color: white;
         padding: 5px;
         background-color: maroon;
-    }
-    #lcontext2 table{
-        width: 100%;
-        height: 165px;
-    }
-    #lcontext2 th{
-        height: 51px;
-        border-bottom: 1px solid maroon;
-    } 
-    #lcontext2 td{
-        height: 52px; 
-    }
-    #lcontext2 .col0{
-        width: 80%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    } 
-    #lcontext2 .col1{
-        width: 10%; 
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #lcontext2 .col2{
-        width: 10%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #lcontext2 .col2 select{
-        width: 100%;
     }
     #rcontext2{
         grid-row: 4 / 5; grid-column: 2 / 4;
@@ -653,34 +558,6 @@
     #rcontext2 table{
         width: 100%;
         height: 165px;
-    }
-    #rcontext2 th{
-        height: 51px;
-        border-bottom: 1px solid maroon;
-    } 
-    #rcontext2 td{
-        height: 52px; 
-    }
-    #rcontext2 .col0{
-        width: 80%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    } 
-    #rcontext2 .col1{
-        width: 10%; 
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #rcontext2 .col2{
-        width: 10%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #rcontext2 .col2 select{
-        width: 100%;
     }
     form{
         width: 100%;
@@ -721,6 +598,58 @@
         text-align: center;
         color: gray; 
     }
+       
+    #cart{
+        background-color: whitesmoke;
+        border: 5px groove;
+        width: 60px;
+        height: 75px;
+        display: grid;
+        grid-template-columns: 5px 50px 5px;
+        grid-template-rows: 40px 20px 15px;
+        grid-gap: 1px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    #pic{
+        grid-row: 1 / 2; grid-column: 2 / 3;
+        position: relative;
+    }
+    #pic img{
+        max-width: 90%;
+        max-height: 90%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    #display{
+        grid-row: 2 / 3; grid-column: 2 / 3;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 16px;
+        width: 100%;
+        height: 80%;
+        margin: auto;
+    }
+    #remove{
+        grid-row: 3 / 4; grid-column: 2 / 3;
+        width: 100%;
+        height: 80%;
+        margin: 0;
+        position: relative;
+    }
+    #rm{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
 }
 /* Display 631px and 960px*/
 @media only screen and (min-width: 631px)
@@ -733,13 +662,16 @@
     body{
         max-width: 860px;
         width: 95%;
-        margin: auto;
+        margin: 20px auto;
     }
     header{
         background-color: whitesmoke;
+        background-image: url(../images/headwave2.jpg);
+        background-repeat: no-repeat;
         max-width: 860px;
         width: 95%;
         margin: 0;
+        padding: 0 20px;
         border: 5px groove;
     }
     header h1{
@@ -870,6 +802,44 @@
         padding: 0 5px;
         margin: auto;
     }
+    .col0{
+        width: 80%;
+        font-family: Georgia;
+        font-weight: bolder;
+        font-size: 12pt;
+        color: maroon;
+    }
+    .col1{
+        width: 10%; 
+        font-family: Georgia;
+        font-weight: bolder;
+        font-size: 12pt;
+        color: maroon;
+    }
+    .col2{
+        width: 10%;
+        font-family: Georgia;
+        font-weight: bolder;
+        font-size: 12pt;
+        color: maroon;
+    }    
+    .col2 select{
+        width: 100%;
+    }
+    #addcart{
+        font-size: 10pt;
+    }
+    main table{
+        width: 100%;
+        height: 165px;
+    }
+    main th{
+        height: 51px;
+        border-bottom: 1px solid maroon;
+    } 
+    main td{
+        height: 52px; 
+    }
     #lcontext1{
         grid-row: 1 / 2; grid-column: 1 / 3;
         padding: 0 10px;
@@ -880,38 +850,6 @@
         color: white;
         padding: 5px;
         background-color: maroon;
-    }
-    #lcontext1 table{
-        width: 100%;
-        height: 165px;
-    }
-    #lcontext1 th{
-        height: 51px;
-        border-bottom: 1px solid maroon;
-    } 
-    #lcontext1 td{
-        height: 52px; 
-    }
-    #lcontext1 .col0{
-        width: 80%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    } 
-    #lcontext1 .col1{
-        width: 10%; 
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #lcontext1 .col2{
-        width: 10%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #lcontext1 .col2 select{
-        width: 100%;
     }
     #rcontext1{
         grid-row: 2 / 3; grid-column: 2 / 4;
@@ -924,38 +862,6 @@
         padding: 5px;
         background-color: maroon;
     }
-    #rcontext1 table{
-        width: 100%;
-        height: 165px;
-    }
-    #rcontext1 th{
-        height: 51px;
-        border-bottom: 1px solid maroon;
-    } 
-    #rcontext1 td{
-        height: 52px; 
-    }
-    #rcontext1 .col0{
-        width: 80%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    } 
-    #rcontext1 .col1{
-        width: 10%; 
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #rcontext1 .col2{
-        width: 10%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #rcontext1 .col2 select{
-        width: 100%;
-    }
     #lcontext2{
         grid-row: 3 / 4; grid-column: 1 / 3;
         padding: 0 10px;
@@ -966,38 +872,6 @@
         color: white;
         padding: 5px;
         background-color: maroon;
-    }
-    #lcontext2 table{
-        width: 100%;
-        height: 165px;
-    }
-    #lcontext2 th{
-        height: 51px;
-        border-bottom: 1px solid maroon;
-    } 
-    #lcontext2 td{
-        height: 52px; 
-    }
-    #lcontext2 .col0{
-        width: 80%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    } 
-    #lcontext2 .col1{
-        width: 10%; 
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #lcontext2 .col2{
-        width: 10%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #lcontext2 .col2 select{
-        width: 100%;
     }
     #rcontext2{
         grid-row: 4 / 5; grid-column: 2 / 4;
@@ -1013,34 +887,6 @@
     #rcontext2 table{
         width: 100%;
         height: 165px;
-    }
-    #rcontext2 th{
-        height: 51px;
-        border-bottom: 1px solid maroon;
-    } 
-    #rcontext2 td{
-        height: 52px; 
-    }
-    #rcontext2 .col0{
-        width: 80%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    } 
-    #rcontext2 .col1{
-        width: 10%; 
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #rcontext2 .col2{
-        width: 10%;
-        font-family: Georgia;
-        font-weight: bolder;
-        color: maroon;
-    }
-    #rcontext2 .col2 select{
-        width: 100%;
     }
     form{
         width: 100%;
@@ -1082,5 +928,53 @@
         margin: auto;
         text-align: center;
         color: gray; 
+    }
+        
+    #cart{
+        background-color: whitesmoke;
+        border: 5px groove;
+        width: 90px;
+        height: 112.5px;
+        display: grid;
+        grid-template-columns: 7.5px 75px 7.5px;
+        grid-template-rows: 60px 30px 22.5px;
+        grid-gap: 1.5px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    #pic{
+        grid-row: 1 / 2; grid-column: 2 / 3;
+        margin: auto;
+    }
+    #pic img{
+        max-width: 100%;
+        height: 100%;
+    }
+    #display{
+        grid-row: 2 / 3; grid-column: 2 / 3;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 24px;
+        width: 100%;
+        height: 80%;
+        margin: auto;
+    }
+    #remove{
+        grid-row: 3 / 4; grid-column: 2 / 3;
+        width: 100%;
+        height: 80%;
+        margin: 0;
+        position: relative;
+    }
+    #rm{
+        margin: 0;
+        position: absolute;
+        max-width: auto;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
 }

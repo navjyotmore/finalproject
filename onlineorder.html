@@ -74,7 +74,8 @@
                                 <td class="col0">Spicy Rollups</td>
                                 <td class="col1">$15</td>
                                 <td class="col2">
-                                    <select name="qty">
+                                    <select name="qty" class="qty">
+                                        <option value="0">0</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -82,6 +83,7 @@
                                         <option value="5">5</option>
                                     </select>
                                 </td>
+                                <td class="col3"><input type="button" value="Add to Cart" id="addcart" onclick="updateCart()"></td>
                             </tr>
                         </tbody>
                         <tbody>
@@ -89,7 +91,8 @@
                                 <td class="col0">Mini Calzones</td>
                                 <td class="col1">$10</td>
                                 <td class="col2">
-                                    <select name="qty">
+                                    <select name="qty" class="qty">
+                                        <option value="0">0</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -97,6 +100,7 @@
                                         <option value="5">5</option>
                                     </select>
                                 </td>
+                                <td class="col3"><input type="button" value="Add to Cart" id="addcart" onclick="updateCart()"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -120,7 +124,8 @@
                                 <td class="col0">Strawberry salad with poppy seed dressing</td>
                                 <td class="col1">$5</td>
                                 <td class="col2">
-                                    <select name="qty">
+                                    <select name="qty" class="qty">
+                                        <option value="0">0</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -128,6 +133,7 @@
                                         <option value="5">5</option>
                                     </select>
                                 </td>
+                                <td class="col3"><input type="button" value="Add to Cart" id="addcart" onclick="updateCart()"></td>
                             </tr>
                         </tbody>
                         <tbody>
@@ -135,7 +141,8 @@
                                 <td class="col0">Apple Pomegranate salad</td>
                                 <td class="col1">$5</td>
                                 <td class="col2">
-                                    <select name="qty">
+                                    <select name="qty" class="qty">
+                                        <option value="0">0</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -143,6 +150,7 @@
                                         <option value="5">5</option>
                                     </select>
                                 </td>
+                                <td class="col3"><input type="button" value="Add to Cart" id="addcart" onclick="updateCart()"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -166,7 +174,8 @@
                                 <td class="col0">Angel Food Cake</td>
                                 <td class="col1">$5</td>
                                 <td class="col2">
-                                    <select name="qty">
+                                    <select name="qty" class="qty">
+                                        <option value="0">0</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -174,6 +183,7 @@
                                         <option value="5">5</option>
                                     </select>
                                 </td>
+                                <td class="col3"><input type="button" value="Add to Cart" id="addcart" onclick="updateCart()"></td>
                             </tr>
                         </tbody>
                         <tbody>
@@ -181,7 +191,8 @@
                                 <td class="col0">Healthy Date truffles</td>
                                 <td class="col1">$5</td>
                                 <td class="col2">
-                                    <select name="qty">
+                                    <select name="qty" class="qty">
+                                        <option value="0">0</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -189,6 +200,7 @@
                                         <option value="5">5</option>
                                     </select>
                                 </td>
+                                <td class="col3"><input type="button" value="Add to Cart" id="addcart" onclick="updateCart()"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -212,7 +224,8 @@
                                 <td class="col0">Mango Mastani</td>
                                 <td class="col1">$5</td>
                                 <td class="col2">
-                                    <select name="qty">
+                                    <select name="qty" class="qty">
+                                        <option value="0">0</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -220,6 +233,7 @@
                                         <option value="5">5</option>
                                     </select>
                                 </td>
+                                <td class="col3"><input type="button" value="Add to Cart" id="addcart" onclick="updateCart()"></td>
                             </tr>
                         </tbody>
                         <tbody>
@@ -227,7 +241,8 @@
                                 <td class="col0">Strawberry Mess with fruit coulis</td>
                                 <td class="col1">$10</td>
                                 <td class="col2">
-                                    <select name="qty">
+                                    <select name="qty" class="qty">
+                                        <option value="0">0</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -235,6 +250,7 @@
                                         <option value="5">5</option>
                                     </select>
                                 </td>
+                                <td class="col3"><input type="button" value="Add to Cart" id="addcart" onclick="updateCart()"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -280,5 +296,12 @@
             </section>
         </footer>
     </body>
-    
+   
+    <div id="cart">
+        <div id="pic"><img src="/images/onlineorder/cart.png"></div>
+        <div id="display"></div>
+        <div id="remove"><input type="button" value="Remove" id="rm" onclick="removeCartItem()"></div>
+    </div>
+
+    <script src="/js/onlineorder_shoppingcart.js"></script>
 </html>

@@ -1,18 +1,22 @@
 /* Display 961px and above*/
 @media only screen and (min-width: 961px) {
 
+  html {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+    width: 100%;
+  }
   body {
-    box-shadow: 0 0 10px 0 gray;
-    margin: 4%;
-
+    max-width: 1040px;
+    padding: 20px;
+    margin: 20px auto;
   }
 
   header {
     background-color: whitesmoke;
     background-image: url(/images/headwave.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
-    width: 96.5%;
+    width: 100%;
     margin: 0;
     border: 5px groove;
     padding: 20px;
@@ -120,38 +124,14 @@
     border: 3px groove;
   }
 
-  nav {
-    width: 96.5%;
+  .formContainer{
+    width: 100%;
+    height: 450px;
+    border: 5px groove;
+    background-color: whitesmoke;
+    margin:  0;
+    padding: 40px 20px;
   }
-
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: auto;
-  }
-
-  nav ul li {
-    float: left;
-    width: 25%;
-    margin: auto;
-  }
-
-  nav ul li a {
-    display: block;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Georgia;
-    color: black;
-    padding: 14px 20px;
-    margin: auto;
-  }
-
-  nav ul li a:hover:not(.active) {
-    color: white;
-    background-color: black;
-  }
-
   .imgpay {
     width: 45%;
     float: left;
@@ -169,15 +149,6 @@
     float: right;
 
   }
-
-  .formContainer {
-
-
-    margin: 5%;
-
-  }
-
-
 
   form {
 
