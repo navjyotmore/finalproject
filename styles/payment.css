@@ -6,6 +6,7 @@
     background-repeat: repeat;
     width: 100%;
   }
+
   body {
     max-width: 1040px;
     padding: 20px;
@@ -124,14 +125,15 @@
     border: 3px groove;
   }
 
-  .formContainer{
+  .formContainer {
     width: 100%;
     height: 450px;
     border: 5px groove;
     background-color: whitesmoke;
-    margin:  0;
+    margin: 0;
     padding: 40px 20px;
   }
+
   .imgpay {
     width: 45%;
     float: left;
@@ -189,11 +191,21 @@
 /* Display 360px and 630px */
 @media only screen and (min-width: 360px) and (max-width: 630px) {
 
+  html {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+    width: 100%;
+  }
 
   body {
+    max-width: 1040px;
     box-shadow: 0 0 10px 0 gray;
     margin: 1%;
+    background-color: white;
+  }
 
+  input {
+    max-width: 90%;
   }
 
   header {
@@ -201,7 +213,7 @@
     background-image: url(/images/headwave.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 92.3%;
+    max-width: 92.3%;
     margin: 0;
     border: 5px groove;
     padding: 20px;
@@ -218,7 +230,7 @@
   nav {
     background-color: whitesmoke;
     margin: 0;
-    width: 100%;
+    max-width: 100%;
     height: 51px;
     border: 5px groove;
     padding: 0 20px;
@@ -310,7 +322,7 @@
   }
 
   nav {
-    width: 92.3%;
+    max-width: 92.3%;
   }
 
   nav ul {
@@ -342,21 +354,22 @@
   }
 
   .imgpay {
-    width: 35%;
+    max-width: 35%;
     float: left;
+    max-height: fit-content;
 
   }
 
   .imgpay img {
     width: 280px;
-    height: 450px;
+    height: 490px;
 
   }
 
   .formpay {
-    width: 50%;
+    max-width: 50%;
     float: right;
-   
+
 
   }
 
@@ -371,7 +384,7 @@
     background-color: rgb(248, 223, 223);
     box-shadow: 0 0 10px 0 gray;
     margin-left: 2em;
-    height: 330px;
+    max-height: 55%;
     padding: 60px;
 
 
@@ -400,22 +413,35 @@
     color: gray;
   }
 }
+
 /* Display 631px and 960px*/
-@media only screen and (min-width: 631px)
-                   and (max-width: 960px){
-                     
+@media only screen and (min-width: 631px) and (max-width: 960px) {
+
+
+  html {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+    width: 100%;
+  }
+
   body {
+    max-width: 1040px;
     box-shadow: 0 0 10px 0 gray;
     margin: 2%;
-
+    background-color: white;
   }
+
+  input {
+    max-width: 90%;
+  }
+
 
   header {
     background-color: whitesmoke;
     background-image: url(/images/headwave.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 94.8%;
+    max-width: 94.7%;
     margin: 0;
     border: 5px groove;
     padding: 20px;
@@ -432,7 +458,7 @@
   nav {
     background-color: whitesmoke;
     margin: 0;
-    width: 100%;
+
     height: 51px;
     border: 5px groove;
     padding: 0 20px;
@@ -524,7 +550,7 @@
   }
 
   nav {
-    width: 94.8%;
+    max-width: 94.7%;
   }
 
   nav ul {
@@ -575,12 +601,13 @@
 
   .formContainer {
     margin: 3%;
+    
   }
 
 
 
   form {
-
+max-height: 60%;
     background-color: rgb(248, 223, 223);
     box-shadow: 0 0 10px 0 gray;
     margin-left: 4em;
