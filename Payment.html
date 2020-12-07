@@ -7,7 +7,6 @@
     <meta name="keyword" content="payment,humber,bistro,card,debit,credit">
     <meta charset="utf-8">
     <link rel="stylesheet" href="/styles/payment.css">
-    <link rel="icon" href="images/favicon-16x16.png">
 </head>
 
 <body>
@@ -20,12 +19,12 @@
 
         <nav>
             <ul>
-                <li><a href="coverpage.html">Home</a></li>
+                <li><a href="CoverPage.html">Home</a></li>
                 <li><a href="">Menu</a>
                     <ul class="sublist">
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="onlineorder.html">Take-out (online)</a></li>
-                        <li><a href="reservation.html">Reservation</a></li>
+                        <li><a href="menu.html">menu</a></li>
+                        <li><a href="onlineorder.html">take-out (online)</a></li>
+                        <li><a href="reservation.html">reservation</a></li>
                     </ul>
                 </li>
                 <li><a href="">Information</a>
@@ -34,13 +33,12 @@
                         <li><a href="location.html">Location</a></li>
                         <li><a href="membership.html">Join membership</a></li>
                         <li><a href="feedback.html">Customer feedback</a></li>
-                        <li><a href="career.html">Career</a></li>
                     </ul>
                 </li>
                 <li><a href="">Specials</a>
                     <ul class="sublist">
                         <li><a href="events.html">Events</a></li>
-                        <li><a href="promotions.html">Promotions</a></li>
+                        <li><a href="promotion.html">Promotions</a></li>
                     </ul>
                 </li>
             </ul>
@@ -48,28 +46,30 @@
         <!--Navigator-->
         <div class="formContainer">
             <div class="imgpay">
-                <img alt="" src="/images/payment/payment.jpg"></div>
+                <img alt="" src="/images/payment.jpg"></div>
             <div class="formpay">
-
-                <form id="account_info" method="get">
+                <!-- payment form -->
+                <form id="formcontainer" name="account_info" method="get" onsubmit=" return validateForm()" >
                     <h2>Make Payment</h2>
                     <div class="form-group owner">
                         <label>Name on card:</label>
-                        <input type="text" class="form-control" id="owner" placeholder="Enter Name">
+                        <input type="text" class="form-control" name="ownername" id="owner" placeholder="Enter Name">
                     </div><br>
                     <div class="form-group CVV">
                         <label>CVV:</label>
                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" class="form-control"
-                            id="cvv" placeholder="Enter cvv" pattern="^[0-9]{3,4}$">
+                            id="cvv" name="cvvNo" placeholder="Enter cvv" onblur="cvvNumber()">
                     </div><br>
                     <div class="form-group" id="card-number-field">
                         <label>Card Number: </label>
-                        <input type="text" class="form-control" id="cardNumber" placeholder=" 4444-4444-4444"
-                            pattern="^4[0-9]{12}(?:[0-9]{3})?$">
+                        <input type="text" class="form-control" name="cardNumber" id="cardNumber" onblur="cardnum()"
+                            placeholder=" 4444-4444-4444">
                     </div><br>
+                    <!-- drop down option-->
                     <div class="form-group" id="expiration-date">
                         <label>Expiration Date</label>
                         <select>
+                            <!-- drop down for month-->
                             <option value="01">January</option>
                             <option value="02">February </option>
                             <option value="03">March</option>
@@ -84,6 +84,7 @@
                             <option value="12">December</option>
                         </select>
                         <select>
+                            <!-- drop down for year-->
                             <option value="16"> 2016</option>
                             <option value="17"> 2017</option>
                             <option value="18"> 2018</option>
@@ -93,13 +94,17 @@
                         </select>
                     </div><br>
                     <div class="form-group" id="pay-now">
-                        <button type="submit" class="btn btn-default" id="confirm-purchase">Confirm</button>
+                        <input type="submit" class="btn btn-default" id="confirm-purchase" onclick="validateForm()" />
                     </div>
                 </form>
             </div>
         </div>
+
     </div>
     <!--footer-->
+    <script src="/javascript.js/paymentvalidation.js">
+
+    </script>
     <footer>
         <a>Copyright &copy; 2020 Humber Bistro <br></a>
         <a class="email" href="" target="_blank">humberbistro@gmail.com</a>
