@@ -1,0 +1,1342 @@
+@media only screen and (min-width: 961px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+    width: 100%;
+  }
+
+  header {
+    background-color: whitesmoke;
+    background-image: url(/images/headwave.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    border: 5px groove;
+    padding: 20px;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 400%;
+    font-weight: bolder;
+    font-family: 'Edwardian Script ITC';
+    padding: 10px;
+  }
+
+  body {
+    max-width: 1040px;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+
+  #imageheader {
+    height: 500px;
+  }
+
+
+  #slides {
+    position: relative;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+  }
+
+  .slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 104.5%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+
+  .showing {
+    opacity: 1;
+    z-index: 2;
+  }
+
+  .slide {
+    font-size: 40px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 500px;
+  }
+
+  /*resource*/
+  .maincontainer {
+    display: flex;
+
+    flex-direction: column;
+  }
+
+
+
+  /* container 1**/
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 360px;
+
+  }
+
+  /* designing of menu img */
+  .menuContainer {
+    position: relative;
+    max-width: 500px;
+    margin-left: 3%;
+    margin-bottom: 8px;
+  }
+
+  .menuContainer img {
+    vertical-align: middle;
+  }
+
+  .menuContainer .menu {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 92%;
+    padding: 20px;
+  }
+
+
+  /* designing of reservation img */
+  .revContainer {
+    position: relative;
+    max-width: 500px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+  }
+
+  .revContainer img {
+    vertical-align: middle;
+  }
+
+  .revContainer .reservation {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+
+    width: 92%;
+    padding: 20px;
+  }
+
+  .reservation a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .menu a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .event a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .promo a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .career a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .membership a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .contact a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  /* designing of order img */
+  #imgorder {
+
+    width: 168%;
+    height: 334px;
+  }
+
+  .orderContainer {
+    position: relative;
+    max-width: 600px;
+    margin-left: 3%;
+  }
+
+  .orderContainer img {
+    vertical-align: middle;
+  }
+
+  .orderContainer .order {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 161.5%;
+    padding: 20px;
+  }
+
+
+  /*container2**/
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+  }
+
+  .order a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  .feedback a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  /*styling events*/
+  .eventimg {
+    margin-left: 3px;
+    width: 500px;
+  }
+
+  .eventContainer {
+    position: relative;
+    max-width: 500px;
+    margin-left: 3% ;
+    margin-bottom: 8px;
+  }
+
+  .eventContainer img {
+    vertical-align: middle;
+  }
+
+  .eventContainer .event {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 91.3%;
+    left: 3px;
+    padding: 20px;
+  }
+
+  /*styling promos*/
+  .imgpromotion {
+    margin-left: 7px;
+    width: 500px;
+    
+  }
+
+  .promotionContainer {
+    position: relative;
+    max-width: 800px;
+    margin-bottom: 8px;
+  }
+
+  .promotionContainer img {
+    vertical-align: middle;
+  }
+
+  .promotionContainer .promo {
+    position: absolute;
+    bottom: 0.9px;
+    left: 7px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 90.5%;
+    padding: 20px;
+  }
+
+  /*styling career*/
+  .imgcareer {
+    width: 232%;
+    margin-left: 7px;
+    height: 333px;
+  }
+
+  .careerContainer {
+    position: relative;
+    max-width: 800px;
+    margin-left: 2.5%;
+  }
+
+  .careerContainer img {
+    vertical-align: middle;
+  }
+
+  .careerContainer .career {
+    position: absolute;
+    bottom: 1px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 222.5%;
+    left: 7px;
+    padding: 20px;
+  }
+
+
+  /*container3**/
+  .container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  /*styling membersip*/
+  .membershipimg {
+    width: 499px;
+    height: 333px;
+  }
+
+  .membershipContainer {
+    position: relative;
+    max-width: 500px;
+    margin-left: 3%;
+    margin-bottom: 8px;
+  }
+
+  .membershipContainer img {
+    vertical-align: middle;
+  }
+
+  .membershipContainer .membership {
+    position: absolute;
+    bottom: 1px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 91.3%;
+    left: 3px;
+    padding: 20px;
+  }
+
+  /*styling feedback*/
+  .imgfeekback {
+    width: 499px;
+    margin-left: 7px;
+    height: 333px;
+  }
+
+  .feedbackContainer {
+    position: relative;
+    max-width: 600px;
+    margin-bottom: 8px;
+  }
+
+  .feedbackContainer img {
+    vertical-align: middle;
+  }
+
+  .feedbackContainer .feedback {
+    position: absolute;
+    bottom: 1px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 90.5%;
+    left: 7px;
+    padding: 20px;
+  }
+
+  /*styling contactus*/
+  .imgcontact {
+    width: 198%;
+    margin-left: 7px;
+    height: 333px;
+  }
+
+  .contactContainer {
+    position: relative;
+    max-width: 800px;
+    margin-left: 2.5% ;
+    margin-bottom: 8px;
+  }
+
+  .contactContainer img {
+    vertical-align: middle;
+  }
+
+  .contactContainer .contact {
+    position: absolute;
+    bottom: 1px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 90.5%;
+    left: 7px;
+    padding: 20px;
+  }
+
+  footer {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    clear: both;
+  }
+
+  footer a {
+    font-family: Cambria;
+    font-weight: 100px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: gray;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 630px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+    width: 70%;
+  }
+
+  header {
+    background-color: whitesmoke;
+    background-image: url(/images/headwave.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 500px;
+    width: 100%;
+    margin: 0;
+    border: 5px groove;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 400%;
+    font-weight: bolder;
+    font-family: 'Edwardian Script ITC';
+  }
+
+  body {
+   
+    padding: 1%;
+    width: 100%;
+  }
+  
+ 
+
+  #imageheader {
+    margin-top: 10px;
+    height: 500px;
+
+  }
+
+
+  #slides {
+    position: relative;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+  }
+
+  .slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 104.5%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+
+  .showing {
+    opacity: 1;
+    z-index: 2;
+  }
+
+  .slide {
+    font-size: 40px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 500px;
+  }
+
+
+
+  .maincontainer {
+    display: flex;
+    margin-top: 53%;
+    flex-direction: column;
+  }
+
+  /* container 1**/
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+  }
+
+  /* designing of menu img */
+  .menuContainer {
+    position: relative;
+    max-width: 800px;
+    margin-top: 30%;
+
+  }
+
+  .menuContainer img {
+    vertical-align: middle;
+    width: 100%;
+   
+  }
+
+  .menuContainer .menu {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    margin-left: 2%;
+    width: 90%;
+    padding: 20px;
+  }
+
+
+  /* designing of reservation img */
+  .revContainer {
+    position: relative;
+    max-width: 800px;
+    margin-left: 8px;
+  }
+
+  .revContainer img {
+    vertical-align: middle;
+    width: 102%;
+    margin-top: 1%;
+  }
+
+  .revContainer .reservation {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    width: 92%;
+    padding: 20px;
+  }
+
+  .reservation a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .menu a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .event a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .promo a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .career a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .membership a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .contact a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  /* designing of order img */
+  #imgorder {
+
+    width: 417px;
+    height: 334px;
+  }
+
+  .orderContainer {
+    position: relative;
+    max-width: 800px;
+    margin-left: 8px;
+  }
+
+  .orderContainer img {
+    vertical-align: middle;
+
+    margin-top: 1%;
+  }
+
+  .orderContainer .order {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 90.5%;
+    padding: 20px;
+  }
+
+
+  /*container2**/
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+  }
+
+  .order a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  .feedback a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  /*styling events*/
+  .eventimg {
+    margin-left: 3px;
+    width: 500px;
+  }
+
+  .eventContainer {
+    position: relative;
+    max-width: 800px;
+
+  }
+
+  .eventContainer img {
+    vertical-align: middle;
+    width: 116%;
+    margin-left: 2%;
+
+  }
+
+  .eventContainer .event {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 105%;
+    margin-left: 1%;
+    left: 3px;
+    padding: 20px;
+  }
+
+  /*styling promos*/
+  .imgpromotion {
+    margin-left: 7px;
+    width: 500px;
+  }
+
+
+  .promotionContainer {
+    position: relative;
+    max-width: 800px;
+
+  }
+
+  .promotionContainer img {
+    width: 116%;
+    margin-left: 2%;
+    vertical-align: middle;
+    margin-top: 2%;
+  }
+
+  .promotionContainer .promo {
+    position: absolute;
+    bottom: 0px;
+    left: 7px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+
+    width: 105%;
+    padding: 20px;
+  }
+
+  /*styling career*/
+  .imgcareer {
+    width: 499px;
+    margin-left: 7px;
+    height: 333px;
+  }
+
+  .careerContainer {
+    position: relative;
+    max-width: 800px;
+
+  }
+
+  .careerContainer img {
+    vertical-align: middle;
+    width: 100.3%;
+    margin-left: 1.7%;
+    margin-top: 1%;
+  }
+
+  .careerContainer .career {
+    position: absolute;
+    bottom: 1px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 90.5%;
+    left: 7px;
+    padding: 20px;
+  }
+
+
+  /*container3**/
+  .container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  /*styling membersip*/
+  .membershipimg {
+    width: 499px;
+    margin-left: 3px;
+    height: 333px;
+  }
+
+  .membershipContainer {
+    position: relative;
+    max-width: 800px;
+
+  }
+
+  .membershipContainer img {
+    vertical-align: middle;
+    width: 111.5%;
+    margin-left: 2%;
+  }
+
+  .membershipContainer .membership {
+    position: absolute;
+    bottom: 1px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 101%;
+    left: 3px;
+    margin-left: 1%;
+    padding: 20px;
+  }
+
+  /*styling feedback*/
+  .imgfeekback {
+    width: 499px;
+    margin-left: 7px;
+    height: 333px;
+  }
+
+  .feedbackContainer {
+    position: relative;
+    max-width: 800px;
+
+  }
+
+  .feedbackContainer img {
+    vertical-align: middle;
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 1.7%;
+  }
+
+  .feedbackContainer .feedback {
+    position: absolute;
+    bottom: 1px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 90.5%;
+    left: 7px;
+    padding: 20px;
+  }
+
+  /*styling contactus*/
+  .imgcontact {
+    width: 499px;
+    margin-left: 7px;
+    height: 333px;
+  }
+
+  .contactContainer {
+    position: relative;
+    max-width: 800px;
+
+  }
+
+  .contactContainer img {
+    vertical-align: middle;
+    width: 100%;
+    margin-left: 1.7%;
+    margin-top: 1%;
+  }
+
+  .contactContainer .contact {
+    position: absolute;
+    bottom: 1px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 90.5%;
+    left: 7px;
+    padding: 20px;
+  }
+
+  footer {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    clear: both;
+  }
+
+  footer a {
+    font-family: Cambria;
+    font-weight: 100px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: gray;
+  }
+}
+
+@media only screen and (min-width: 631px) and (max-width: 960px) {
+
+  header {
+    background-color: whitesmoke;
+    background-image: url(/images/headwave.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 860px;
+    width: 99%;
+    margin: 0;
+    border: 5px groove;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 400%;
+    font-weight: bolder;
+    font-family: 'Edwardian Script ITC';
+  }
+
+  body {
+    background-color: rgb(248, 215, 215);
+    padding: 1%;
+    width: 100%;
+  }
+
+  #imageheader {
+    margin-top: 10px;
+    height: 500px;
+
+  }
+
+
+  #slides {
+    position: relative;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+  }
+
+  .slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 104.5%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+
+  .showing {
+    opacity: 1;
+    z-index: 2;
+  }
+
+  .slide {
+    font-size: 40px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 500px;
+  }
+
+
+  .maincontainer {
+    display: flex;
+    margin-top: 53%;
+    flex-direction: column;
+  }
+
+  /* container 1**/
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+  }
+
+  /* designing of menu img */
+  .menuContainer {
+    position: relative;
+    max-width: 425px;
+
+  }
+
+  .menuContainer img {
+    vertical-align: middle;
+    width: 100%;
+
+  }
+
+  .menuContainer .menu {
+    position: absolute;
+    bottom: 3px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    margin-left: 2%;
+    width: 88%;
+    padding: 20px;
+  }
+
+
+  /* designing of reservation img */
+  .revContainer {
+    position: relative;
+    max-width: 425px;
+
+  }
+
+  .revContainer img {
+    vertical-align: middle;
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .revContainer .reservation {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    width: 87.5%;
+    margin-left: 5%;
+    padding: 20px;
+  }
+
+  .reservation a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .menu a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .event a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .promo a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .career a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .membership a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .contact a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  /* designing of order img */
+  #imgorder {
+
+    width: 425px;
+    height: 334px;
+  }
+
+  .orderContainer {
+    position: relative;
+    max-width: 800px;
+
+  }
+
+  .orderContainer img {
+    vertical-align: middle;
+    margin-top: 1%;
+  }
+
+  .orderContainer .order {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 90.5%;
+    padding: 20px;
+  }
+
+
+  /*container2**/
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+  }
+
+  .order a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  .feedback a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  /*styling events*/
+  .eventimg {
+    margin-left: 3px;
+    width: 500px;
+  }
+
+  .eventContainer {
+    position: relative;
+    max-width: 800px;
+
+  }
+
+  .eventContainer img {
+    vertical-align: middle;
+    width: 116%;
+  }
+
+  .eventContainer .event {
+    position: absolute;
+    bottom: 5px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 10%;
+    margin-left: 1%;
+    left: 3px;
+    padding: 20px;
+  }
+
+  /*styling promos*/
+  .imgpromotion {
+    margin-left: 7px;
+    width: 500px;
+  }
+
+
+  .promotionContainer {
+    position: relative;
+    max-width: 800px;
+
+  }
+
+  .promotionContainer img {
+    width: 116%;
+    margin-left: 20%;
+    vertical-align: middle;
+
+  }
+
+  .promotionContainer .promo {
+    position: absolute;
+    bottom: 2px;
+    left: 7px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    margin-left: 18%;
+    width: 105%;
+    padding: 20px;
+  }
+
+  /*styling career*/
+  .imgcareer {
+    width: 499px;
+    height: 333px;
+  }
+
+  .careerContainer {
+    position: relative;
+    max-width: 800px;
+
+  }
+
+  .careerContainer img {
+    vertical-align: middle;
+    width: 98.5%;
+    margin-left: 1%;
+    margin-top: 1%;
+  }
+
+  .careerContainer .career {
+    position: absolute;
+    bottom: 1px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 89%;
+    left: 4px;
+    padding: 20px;
+  }
+
+
+  /*container3**/
+  .container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  /*styling membersip*/
+  .membershipimg {
+    width: 499px;
+    margin-left: 3px;
+    height: 333px;
+  }
+
+  .membershipContainer {
+    position: relative;
+    max-width: 330px;
+
+  }
+
+  .membershipContainer img {
+    vertical-align: middle;
+    width: 126.5%;
+    margin-left: 2%;
+  }
+
+  .membershipContainer .membership {
+    position: absolute;
+    bottom: 1px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 114.5%;
+    left: 3px;
+    margin-left: 1%;
+    padding: 20px;
+  }
+
+  /*styling feedback*/
+  .imgfeekback {
+    width: 499px;
+    margin-left: 7px;
+    height: 333px;
+  }
+
+  .feedbackContainer {
+    position: relative;
+    max-width: 330px;
+
+  }
+
+  .feedbackContainer img {
+    vertical-align: middle;
+    width: 127%;
+    margin-left: 30%;
+  }
+
+  .feedbackContainer .feedback {
+    position: absolute;
+    bottom: 1px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 115%;
+    left: 30%;
+    padding: 20px;
+  }
+
+  /*styling contactus*/
+  .imgcontact {
+    width: 499px;
+    margin-left: 7px;
+    height: 333px;
+  }
+
+  .contactContainer {
+    position: relative;
+    max-width: 800px;
+
+  }
+
+  .contactContainer img {
+    vertical-align: middle;
+    width: 100%;
+    margin-left: 1.7%;
+    margin-top: 1%;
+  }
+
+  .contactContainer .contact {
+    position: absolute;
+    bottom: 1px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 90.5%;
+    left: 7px;
+    padding: 20px;
+  }
+
+  footer {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    clear: both;
+  }
+
+  footer a {
+    font-family: Cambria;
+    font-weight: 100px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: gray;
+  }
+}
