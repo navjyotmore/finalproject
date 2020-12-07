@@ -40,7 +40,7 @@
   #imageheader {
     margin-top: 10px;
     height: 500px;
-    
+
   }
 
 
@@ -85,9 +85,6 @@
 
     flex-direction: column;
   }
-
-
-
 
 
 
@@ -471,6 +468,8 @@
     padding: 1%;
     width: 100%;
   }
+  
+ 
 
   #imageheader {
     margin-top: 10px;
@@ -518,6 +517,7 @@
 
   .maincontainer {
     display: flex;
+    margin-top: 53%;
     flex-direction: column;
   }
 
@@ -540,7 +540,7 @@
   .menuContainer img {
     vertical-align: middle;
     width: 100%;
-    margin-left: 2%;
+    margin-left: 3%;
   }
 
   .menuContainer .menu {
@@ -965,6 +965,7 @@
 
   .maincontainer {
     display: flex;
+    margin-top: 53%;
     flex-direction: column;
   }
 
