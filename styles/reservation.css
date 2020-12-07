@@ -268,14 +268,17 @@
     }
     header{
         background-color: whitesmoke;
+        background-image: url(../images/headwave1.jpg);
+        background-repeat: no-repeat;
         max-width: 414px;
         width: 95%;
+        padding: 0 20px;
         margin: 0;
         border: 5px groove;
     }
     header h1{
         margin: 0;
-        font-size: 400%;
+        font-size: 300%;
         font-weight: bolder;
         font-family: 'Edwardian Script ITC';
     }
@@ -479,25 +482,16 @@
         margin: auto;
         padding: 10px 0;
     }
-    #time{
-        width: 85%; 
+    #date, #dtime, #fname, #lname, #phone, #email{
+        width: 100%;
     }
     #comments{
         max-width: 414px;
         width: 100%;
     }
-    #name{
-        max-width: 414px;
-        width: 90%;
-    }
     #contact input{
         max-width: 414px;
         width: 90%;
-        padding: 0 10px;
-    }
-    #site{
-        max-width: 414px;
-        width: 20%;
         padding: 0 10px;
     }
     .binfo{
@@ -544,8 +538,11 @@
     }
     header{
         background-color: whitesmoke;
+        background-image: url(../images/headwave2.jpg);
+        background-repeat: no-repeat;
         max-width: 860px;
         width: 95%;
+        padding: 0 20px;
         margin: 0;
         border: 5px groove;
     }
@@ -753,27 +750,19 @@
     form section{
         max-width: 860px;
         width: 80%;
+        margin-left: 2em;
         padding: 10px 0;
-    }
-    #time{
-        width: 95%; 
     }
     #comments{
         max-width: 860px;
         width: 100%;
     }
-    #name{
-        max-width: 860px;
-        width: 95%;
-    }
+    #date, #dtime, #fname, #lname, #phone, #email{
+        width: 100%;
+    } 
     #contact input{
         max-width: 860px;
         width: 95%;
-        padding: 0 10px;
-    }
-    #site{
-        max-width: 860px;
-        width: 20%;
         padding: 0 10px;
     }
     .binfo{
