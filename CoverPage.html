@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Humber Bistro</title>
+    <meta name="description" content="Humber Bistro is a resturant with multiple cusines ">
+    <meta name="keywords" content="humber,bistro,resturant,cusines,online reservation">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/styles/cover.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1 id="rname">Humber Bistro</h1>
+        </header>
+        <!--Header-->
+
+        <!--Header image code-->
+        <div id="imageheader">
+
+            <div id="slides">
+                <img class="slide showing" src="/images/coverpage/2813122.jpg" alt="" />
+                <img class="slide" src="/images/coverpage/4299835.jpg" alt="" />
+                <img class="slide" src="/images/coverpage/4300138.jpg" alt="" />
+                
+
+                 <script>
+                    var slides = document.querySelectorAll('#slides .slide');
+                    var currentSlide = 0;
+                    var slideInterval = setInterval(nextSlide, 3000);
+
+                    function nextSlide() {
+                        slides[currentSlide].className = 'slide';
+                        currentSlide = (currentSlide + 1) % slides.length;
+                        slides[currentSlide].className = 'slide showing';
+                    }
+                </script> 
+
+            </div>
+
+            <!--main container-->
+
+            <main class="maincontainer">
+                <div class="container">
+                    <div class="menuContainer">
+                        <!--menulink container-->
+                        <img class="menuimg" alt="" src="/images/coverpage/noodles.jpeg" />
+                        <div class="menu">
+                            <h1> <a href="menu.html">Menu</a></h1>
+                        </div>
+                    </div>
+                    <div class="revContainer">
+                        <!--reservationlink container-->
+                        <img id="imgReservation" alt="" src="/images/coverpage/reservation.jpg" />
+                        <div class="reservation">
+                            <h1><a href="reservation.html"> Reservation</a></h1>
+                        </div>
+                    </div>
+                    <div class="orderContainer">
+                        <!--orderlink container-->
+                        <img id="imgorder" alt="" src="/images/coverpage/orderonline.jpg" />
+                        <div class="order">
+                            <h1><a href="onlineorder.html">order</a></h1>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="container2">
+                    <div class="eventContainer">
+                        <!--eventlink container-->
+                        <img class="eventimg" alt="" src="/images/coverpage/events2.jpg" />
+                        <div class="event">
+                            <h1> <a href="events.html"> Event</a></h1>
+                        </div>
+                    </div>
+                    <div class="promotionContainer">
+                        <!--promotionlink container-->
+                        <img class="imgpromotion" alt="" src="/images/coverpage/offer2.jpg" />
+                        <div class="promo">
+                            <h1><a href="promotions.html"> Promotions</a></h1>
+                        </div>
+                    </div>
+                    <div class="careerContainer">
+                        <!--careerlink container-->
+                        <img class="imgcareer" alt="" src="/images/coverpage/career1.jpg" />
+                        <div class="career">
+                            <h1> <a href="career.html"> Career Opertunities</a></h1>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container3">
+                    <div class="membershipContainer">
+                        <!--membershiplink container-->
+                        <img class="membershipimg" alt="" src="/images/coverpage/membership1.jpg" />
+                        <div class="membership">
+                            <h1><a href="membership.html">Membership login </a></h1>
+                        </div>
+                    </div>
+                    <div class="feedbackContainer">
+                        <!--feedbacklink container-->
+                        <img class="imgfeekback" alt="" src="/images/coverpage/feedback.jpg" />
+                        <div class="feedback">
+                            <h1><a href="feedback.html">Feedback</a></h1>
+                        </div>
+                    </div>
+                    <div class="contactContainer">
+                        <!--contactlink container-->
+                        <img class="imgcontact" alt="" src="/images/coverpage/contact us.jpg" />
+                        <div class="contact">
+                            <h1> <a href="aboutus.html"> About Us</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- Footer code-->
+            <footer>
+                <a>Copyright &copy; 2020 Humber Bistro <br></a>
+                <a class="email" href="" target="_blank">humberbistro@gmail.com</a>
+            </footer>
+          
+        </div>
+    </div>
+</body>
+
+</html>
