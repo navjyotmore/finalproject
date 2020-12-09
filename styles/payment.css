@@ -15,7 +15,7 @@
 
   header {
     background-color: whitesmoke;
-    background-image: url(/images/headwave.jpg);
+    background-image: url(../images/headwave.jpg);
     background-repeat: no-repeat;
     width: 100%;
     margin: 0;
