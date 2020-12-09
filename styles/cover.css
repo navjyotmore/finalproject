@@ -68,327 +68,198 @@
     height: 500px;
   }
 
-  /*resource*/
-  .maincontainer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* container 1**/
-  .container {
+  .container{
+    margin-top: 38%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 360px;
   }
+ .menuimg{
+  vertical-align: middle;
+   width: 120%;
+   margin-top: 2%;
+   height: 300px;
+ }
+ .maincontainer a{
+   text-decoration: none;
+   color: whitesmoke;
+ }
 
-  /* designing of menu img */
-  .menuContainer {
-    position: relative;
-    max-width: fit-content;
-    margin-bottom: 8px;
-  }
+ .menuContainer .menu {
+  position: relative;
+  bottom: 30%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px 0;
+}
+ #imgReservation{
+  vertical-align: middle;
+  width: 134%;
+  margin-left: 23%;
+   margin-top: 2%;
+   height: 300px;
+ }
+ .revContainer .reservation {
+  position: relative;
+  bottom: 28%;
+  left: 23%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  width: 134%;
+  padding: 20px 0;
+}
+ #imgorder{
+  vertical-align: middle;
+  width: 80%;
+  margin-left: 29%;
+  margin-top: 1%;
+  height: 300px;
+ }
+ .orderContainer .order {
+  position: relative;
+  bottom: 28%;
+  left: 29%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 80%;
+  padding: 20px 0;
+}
 
-  .menuContainer img {
-    vertical-align: middle;
-    width:100%;
-  }
+ .container2{
+   margin-top: -11%;
+  display: flex;
+  flex-direction: row;
+ }
+ .eventimg{
+  vertical-align: middle;
+  width: 110%;
+  margin-top: 2%;
+  height: 300px;
+ }
 
-  .menuContainer .menu {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px 0;
-  }
+ .eventContainer .event {
+  position: relative;
+  bottom: 28%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 110%;
+  padding: 20px 0;
+}
+ .imgpromotion{
+  vertical-align: middle;
+  width: 112%;
+  margin-left: 12%;
+  margin-top: 2%;
+  height: 300px;
+ }
 
-  .menuContainer .menu a{
-    padding: 20px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
+ .promotionContainer .promo {
+  position: relative;
+  bottom: 28%;
+  left: 11.5%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 112%;
+  padding: 20px 0;
+}
+ .imgcareer{
+  vertical-align: middle;
+  width: 90%;
+  margin-left: 22.5%;
+  margin-top: 2%;
+  height: 300px;
+ }
+ .careerContainer .career {
+  position: relative;
+  bottom: 28%;
+  left: 23%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 90%;
+  padding: 20px 0;
+}
 
-  /* designing of reservation img */
-  .revContainer {
-    position: relative;
-    max-width: fit-content;
-    margin-left: 40px;
-    margin-bottom: 8px;
-  }
+.container3{
+  margin-top: -10%;
+  display: flex;
+  flex-direction: row;
+ }
+  
+ .membershipimg{
+  vertical-align: middle;
+  width: 125%;
+  margin-top: 2%;
+  height: 300px;
+ }
+ .membershipContainer .membership {
+  position: relative;
+  bottom: 28%;
+  left: 3%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 122%;
+  padding: 20px 0;
+}
 
-  .revContainer img {
-    vertical-align: middle;
-    width:100%;
-  }
+ .imgfeekback{
+  vertical-align: middle;
+  width: 90%;
+  margin-left: 20%;
+  margin-top: 1%;
+  height: 300px;
+ }
 
-  .revContainer .reservation {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    width: 100%;
-    padding: 20px 0;
-  }
-
-   .revContainer .reservation a{
-    padding: 20px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-
-
-
-  /* designing of order img */
-  #imgorder {
-    vertical-align: middle;
-    width:100%;
-    height: 334px;
-  }
-
-  .orderContainer {
-    position: relative;
-    width: 100%;
-  }
-
-  .orderContainer .order {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px 0;
-  }
-  .orderContainer .order a{
-    text-decoration: none;
-    color: whitesmoke;
-    padding: 20px;
-  }
-
-  /*container2**/
-  .container2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 8px;
-  }
-
-  /*styling events*/
-  .eventContainer {
-    position: relative;
-    max-width: fit-content;
-    margin-bottom: 8px;
-  }
-
-  .eventContainer img {
-    vertical-align: middle;
-    width:500px;
-  }
-
-  .eventContainer .event {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px 0;
-  }
-
-  .eventContainer .event a{
-    padding: 20px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-
-  /*styling promos*/
-  .promotionContainer {
-    position: relative;
-    max-width: fit-content;
-    margin-left: 40px;
-    margin-bottom: 8px;
-  }
-
-  .promotionContainer img {
-    vertical-align: middle;
-    width:500px;
-  }
-
-  .promotionContainer .promo {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px 0;
-  }
-
-  .promotionContainer .promo a{
-    padding: 20px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-
-  /*styling career*/
-  .imgcareer {
-    vertical-align: middle;
-    width: 1040px;
-    height: 334px;
-  }
-
-  .careerContainer {
-    position: relative;
-    width: 100%;
-  }
-
-  .careerContainer .career {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px 0;
-  }
-  .careerContainer .career a{
-    text-decoration: none;
-    color: whitesmoke;
-    padding: 20px;
-  }
-
-  /*container3**/
-  .container3 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 8px;
-  }
-
-  /*styling membersip*/ 
-  .membershipContainer {
-    position: relative;
-    max-width: fit-content;
-    margin-bottom: 8px;
-  }
-
-  .membershipContainer img {
-    vertical-align: middle;
-    width:500px;
-    height:334px;
-  }
-
-  .membershipContainer .membership {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px 0;
-  }
-
-  .membershipContainer .membership a{
-    padding: 20px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-
-  /*styling feedback*/
-  .feedbackContainer {
-    position: relative;
-    max-width: fit-content;
-    margin-left: 40px;
-    margin-bottom: 8px;
-  }
-
-  .feedbackContainer img {
-    vertical-align: middle;
-    width:500px;
-    height: 334px;
-  }
-
-  .feedbackContainer .feedback {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px 0;
-  }
-
-  .feedbackContainer .feedback  a{
-    padding: 20px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-
-  /*styling contactus*/
-  .imgcontact {
-    vertical-align: middle;
-    width:100%;
-    height: 334px;
-  }
-
-  .contactContainer {
-    position: relative;
-    width: 100%;
-  }
-
-  .contactContainer .contact {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px 0;
-  }
-
-  .contactContainer .contact a{
-    text-decoration: none;
-    color: whitesmoke;
-    padding: 20px;
-  }
-
-  footer {
-    text-align: center;
-    width: 100%;
-    margin: auto;
-    padding: 20px;
-    margin-top: 50px;
-    clear: both;
-  }
-
-  footer a {
-    font-family: Cambria;
-    font-weight: 100px;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    color: gray;
-  }
+ .feedbackContainer .feedback {
+  position: relative;
+  bottom: 28%;
+  left: 20%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 90%;
+  padding: 20px 0;
+}
+ .imgcontact{
+  vertical-align: middle;
+  width: 100%;
+  margin-top: 1%;
+  margin-left: 13%;
+  height: 300px;
+ }
+ .contactContainer .contact {
+  position: relative;
+  bottom: 28%;
+  left: 13%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px 0;
+}
 }
 
 @media only screen and (min-width: 360px) and (max-width: 630px){
@@ -777,6 +648,7 @@
 }
 
 @media only screen and (min-width: 631px) and (max-width: 960px){
+ 
   html {
     background-image: url(../images/background.jpg);
     background-repeat: repeat;
@@ -787,7 +659,6 @@
     background-color: whitesmoke;
     background-image: url(/images/headwave2.jpg);
     background-repeat: no-repeat;
-   
     max-width: 95%;
     margin: auto;
     border: 5px groove;
@@ -806,8 +677,6 @@
     width: 95%;
     margin: auto;
   }
-
-
   #imageheader {
     height: 500px;
   }
@@ -841,310 +710,201 @@
     color: #fff;
     height: 400px;
   }
-
-  /*resource*/
-  .maincontainer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* container 1**/
-  .container {
+  .container{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 100%;
-    margin: 8px auto;
   }
+ .menuimg{
+  vertical-align: middle;
+   width: 100%;
+   margin-top: 2%;
+   height: 300px;
+ }
+ .maincontainer a{
+   text-decoration: none;
+   color: whitesmoke;
+ }
 
-  /* designing of menu img */
-  .menuContainer {
-    position: relative;
-    max-width: 67%;
-    margin-bottom: 8px;
-  }
+ .menuContainer .menu {
+  position: relative;
+  bottom: 30%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px 0;
+}
+ #imgReservation{
+  vertical-align: middle;
+  width: 100%;
+  margin-left: 4%;
+   margin-top: 2%;
+   height: 300px;
+ }
+ .revContainer .reservation {
+  position: relative;
+  bottom: 28%;
+  left: 4%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  width: 100%;
+  padding: 20px 0;
+}
+ #imgorder{
+  vertical-align: middle;
+  width: 96%;
+  margin-left: 4%;
+  margin-top: 1%;
+  height: 300px;
+ }
+ .orderContainer .order {
+  position: relative;
+  bottom: 28%;
+  left: 4%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 96%;
+  padding: 20px 0;
+}
 
-  .menuContainer img {
-    vertical-align: middle;
-    width:375px;
-  }
+ .container2{
+   margin-top: -13%;
+  display: flex;
+  flex-direction: row;
+ }
+ .eventimg{
+  vertical-align: middle;
+  width: 100%;
+  margin-top: 2%;
+  height: 300px;
+ }
 
-  .menuContainer .menu {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width:375px;
-    padding: 10px 0;
-  }
-
-  .menuContainer .menu a{
-    padding: 20px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-
-  /* designing of reservation img */
-  .revContainer {
-    position: relative;
-    max-width: 67%;
-    margin-left: 10px;
-    margin-bottom: 8px;
-  }
-
-  .revContainer img {
-    vertical-align: middle;
-    width:375px;
-  }
-
-  .revContainer .reservation {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    width:375px;
-    padding: 10px 0;
-  }
-
-   .revContainer .reservation a{
-    padding: 20px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-
-  /* designing of order img */
-  #imgorder {
-    vertical-align: middle;
-    width:100%;
-    height: 334px;
-  }
-
-  .orderContainer {
-    position: relative;
-    max-width: 88%;
-  }
-
-  .orderContainer .order {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px 0;
-  }
-  .orderContainer .order a{
-    text-decoration: none;
-    color: whitesmoke;
-    padding: 20px;
-  }
-
-  /*container2**/
-  .container2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 8px auto;
-  }
-
-  /*styling events*/
-  .eventContainer {
-    position: relative;
-    max-width: fit-content;
-    margin-bottom: 8px;
-  }
-
-  .eventContainer img {
-    vertical-align: middle;
-    width:375px;
-  }
-
-  .eventContainer .event {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width:375px;
-    padding: 10px 0;
-  }
-
-  .eventContainer .event a{
-    padding: 20px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-
-  /*styling promos*/
-  .promotionContainer {
-    position: relative;
-    max-width: fit-content;
-    margin-left: 10px;
-    margin-bottom: 8px;
-  }
-
-  .promotionContainer img {
-    vertical-align: middle;
-    width:375px;
-  }
-
-  .promotionContainer .promo {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width:375px;
-    padding: 10px 0;
-  }
-
-  .promotionContainer .promo a{
-    padding: 20px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-
-  /*styling career*/
-  .imgcareer {
-    vertical-align: middle;
-    width:100%;
-    height: 334px;
-  }
-
-  .careerContainer {
-    position: relative;
-    width: 88%;
-  }
-
-  .careerContainer .career {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px 0;
-  }
-  .careerContainer .career a{
-    text-decoration: none;
-    color: whitesmoke;
-    padding: 20px;
-  }
-
-  /*container3**/
-  .container3 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 8px;
-  }
-
-  /*styling membersip*/ 
-  .membershipContainer {
-    position: relative;
-    max-width: fit-content;
-    margin-bottom: 8px;
-  }
-
-  .membershipContainer img {
-    vertical-align: middle;
-    width:375px;
-    height:334px;
-  }
-
-  .membershipContainer .membership {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width:375px;
-    padding: 10px 0;
-  }
-
-  .membershipContainer .membership a{
-    padding: 20px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-
-  /*styling feedback*/
-  .feedbackContainer {
-    position: relative;
-    max-width: fit-content;
-    margin-left: 10px;
-    margin-bottom: 8px;
-  }
-
-  .feedbackContainer img {
-    vertical-align: middle;
-    width:375px;
-    height: 334px;
-  }
-
-  .feedbackContainer .feedback {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width:375px;
-    padding: 10px 0;
-  }
-
-  .feedbackContainer .feedback  a{
-    padding: 20px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-
-  /*styling contactus*/
-  .imgcontact {
-    vertical-align: middle;
-    width:100%;
-    height: 334px;
-  }
-
-  .contactContainer {
-    position: relative;
-    width: 88.2%;
-  }
-
-  .contactContainer .contact {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px 0;
-  }
-
-  .contactContainer .contact a{
-    text-decoration: none;
-    color: whitesmoke;
-    padding: 20px;
-  }
+ .eventContainer .event {
+  position: relative;
+  bottom: 28%;
   
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  max-width: 99%;
+  padding: 20px 0;
+}
+
+
+ .imgpromotion{
+  vertical-align: middle;
+  width: 100%;
+  margin-left: 2%;
+  margin-top: 2%;
+  height: 300px;
+ }
+
+ .promotionContainer .promo {
+  position: relative;
+  bottom: 28%;
+  left: 2%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px 0;
+}
+ .imgcareer{
+  vertical-align: middle;
+  width: 98%;
+  margin-left: 3%;
+  margin-top: 2%;
+  height: 300px;
+ }
+ .careerContainer .career {
+  position: relative;
+  bottom: 28%;
+  left: 3%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 98%;
+  padding: 20px 0;
+}
+
+.container3{
+  margin-top: -14%;
+  display: flex;
+  flex-direction: row;
+ }
+  
+ .membershipimg{
+  vertical-align: middle;
+  width: 100%;
+  margin-top: 2%;
+  height: 300px;
+ }
+ .membershipContainer .membership {
+  position: relative;
+  bottom: 34%;
+  left: 3%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 97%;
+  padding: 20px 0;
+}
+
+ .imgfeekback{
+  vertical-align: middle;
+  width: 100%;
+  margin-left: 2%;
+  margin-top: 2%;
+  height: 300px;
+ }
+
+ .feedbackContainer .feedback {
+  position: relative;
+  bottom: 26%;
+  left: 2%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px 0;
+}
+ .imgcontact{
+  vertical-align: middle;
+  width: 97%;
+  margin-top: 2%;
+  margin-left: 4%;
+  height: 300px;
+ }
+ .contactContainer .contact {
+  position: relative;
+  bottom: 26%;
+  left: 4%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 97%;
+  padding: 20px 0;
+}
+
   footer {
     text-align: center;
     width: 100%;
@@ -1162,4 +922,4 @@
     text-align: center;
     color: gray;
   }
-}
+} 
