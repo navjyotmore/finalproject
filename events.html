@@ -50,18 +50,42 @@
                 <p>Welcome to our events page, below you will find a table with our 
                 resturants events</p>
                 <p>At Humber Bistro we host an event every Friday night from 6pm - closing.</p>
-                <p>Below is a table with the events for the month of December followed by our RSVP list.</p>
             </section>
             <!--events intro--> 
-            <script src="https://www.w3schools.com/lib/w3.js"></script>
-            <blockquote>
-                <img class="event" src="images/events/unnamed1.png" height="90%" width="100%">
-                <img class="event" src="images/events/67829817_990859807911927_5391870044676292608_n.jpg" height="90%" width="100%">
-                <img class="event" src="images/events/Tuesday-KaraokeNight1_f9bca592-5056-a36a-0a2c9d00069c88c2.jpg" height="90%" width="100%">
-                <img class="event" src="images/events/Open Mic NIght.jpg" height="50%" width="100%">
-            </blockquote>
+            <div>
+                <img src="images/events/unnamed1.png" name="slideshow" id="slideshow" width="100%" height="90%"></a>
+            </div>
             <script>
-            myShow = w3.slideshow(".event", 3000);
+                //Section 1 ------------  declare an array of images
+                var myImagesArray = ["images/events/unnamed1.png","images/events/67829817_990859807911927_5391870044676292608_n.jpg","images/events/Tuesday-KaraokeNight1_f9bca592-5056-a36a-0a2c9d00069c88c2.jpg","images/events/Open Mic NIght.jpg"];
+
+                // Section 2 -------------------------------------------------
+                //make an automatic slide to display the images
+                var ImageNumber = 0;
+                var difference = myImagesArray.length -1;
+                var delay = 3000; //milliseconds    1sec=1000milliseconds
+            
+                setInterval("ChangeImages(1)", delay);
+                //-1 to show the slide backwards
+                //1 to show the slide forwards
+            
+                function ChangeImages(direction)
+                {//begin function
+                    
+                    ImageNumber = ImageNumber + direction;
+            
+                    if(ImageNumber > difference)
+                    {//begin inner first if
+                        ImageNumber = 0;
+                    }//end inner first if
+            
+                    if(ImageNumber < 0)
+                    {//begin inner second if
+                        ImageNumber = difference;
+                    }//end inner second if
+                    //document.slideshow.src = myImagesArray[ImageNumber];
+                    document.getElementById('slideshow').src = myImagesArray[ImageNumber];            
+                }//end function
             </script>
             <!--events slideshow-->
             <section id="events">

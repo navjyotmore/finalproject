@@ -50,15 +50,40 @@
             <p>It is located on the Humber College Institute of Technology Campus at 205 Humber College Blvd, Etobicoke, ON M9W 5L7</p>
             <p>Contact number (Click to call): <a href="tel:416-675-3333">416-675-3333</a> </p>
             <!--location intro-->
-            <script src="https://www.w3schools.com/lib/w3.js"></script>
-            <blockquote>
-                <img class="location" src="images/location/276463137.jpg" height="90%" width="100%">
-                <img class="location" src="images/location/181335459.jpg" height="90%" width="100%">
-                <img class="location" src="images/location/hotel-restaurant-le-bistro.jpg" height="90%" width="100%">
-                <img class="location" src="images/location/26240817_1765896780111488_4724507426230231188_o.jpg" height="50%" width="100%">
-            </blockquote>
+            <div>
+                <img src="images/location/276463137.jpg" name="slideshow" id="slideshow" width="100%" height="90%"></a>
+            </div>
             <script>
-                myShow = w3.slideshow(".location", 3000);
+                //Section 1 ------------  declare an array of images
+                var myImagesArray = ["images/location/276463137.jpg","images/location/181335459.jpg","images/location/hotel-restaurant-le-bistro.jpg","images/location/26240817_1765896780111488_4724507426230231188_o.jpg"];
+
+                // Section 2 -------------------------------------------------
+                //make an automatic slide to display the images
+                var ImageNumber = 0;
+                var difference = myImagesArray.length -1;
+                var delay = 3000; //milliseconds    1sec=1000milliseconds
+            
+                setInterval("ChangeImages(1)", delay);
+                //-1 to show the slide backwards
+                //1 to show the slide forwards
+            
+                function ChangeImages(direction)
+                {//begin function
+                    
+                    ImageNumber = ImageNumber + direction;
+            
+                    if(ImageNumber > difference)
+                    {//begin inner first if
+                        ImageNumber = 0;
+                    }//end inner first if
+            
+                    if(ImageNumber < 0)
+                    {//begin inner second if
+                        ImageNumber = difference;
+                    }//end inner second if
+                    //document.slideshow.src = myImagesArray[ImageNumber];
+                    document.getElementById('slideshow').src = myImagesArray[ImageNumber];            
+                }//end function
             </script>
             <!--slideshow of location-->
             <h1>Map</h1>

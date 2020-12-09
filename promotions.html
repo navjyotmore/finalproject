@@ -53,15 +53,40 @@
                     </p>
             </section>
             <!--promotions intro--> 
-            <script src="https://www.w3schools.com/lib/w3.js"></script>
-                <blockquote>
-                    <img class="food" src="Images/menu/unnamed (3).jpg" height="90%" width="100%">
-                    <img class="food" src="Images/menu/beverages1.jpg" height="90%" width="100%">
-                    <img class="food" src="Images/menu/salad.jpg" height="90%" width="100%">
-                    <img class="food" src="Images/menu/unnamed.jpg" height="50%" width="100%">
-                </blockquote>
+            <div>
+                <img src="images/menu/unnamed (3).jpg" name="slideshow" id="slideshow"  width="100%" height="90%"></a>
+            </div>
             <script>
-                myShow = w3.slideshow(".food", 3000);
+                //Section 1 ------------  declare an array of images
+                var myImagesArray = ["images/menu/unnamed (3).jpg","Images/menu/beverages1.jpg","Images/menu/salad.jpg","images/Menu/unnamed.jpg"];
+
+                // Section 2 -------------------------------------------------
+                //make an automatic slide to display the images
+                var ImageNumber = 0;
+                var difference = myImagesArray.length -1;
+                var delay = 3000; //milliseconds    1sec=1000milliseconds
+            
+                setInterval("ChangeImages(1)", delay);
+                //-1 to show the slide backwards
+                //1 to show the slide forwards
+            
+                function ChangeImages(direction)
+                {//begin function
+                    
+                    ImageNumber = ImageNumber + direction;
+            
+                    if(ImageNumber > difference)
+                    {//begin inner first if
+                        ImageNumber = 0;
+                    }//end inner first if
+            
+                    if(ImageNumber < 0)
+                    {//begin inner second if
+                        ImageNumber = difference;
+                    }//end inner second if
+                    //document.slideshow.src = myImagesArray[ImageNumber];
+                    document.getElementById('slideshow').src = myImagesArray[ImageNumber];            
+                }//end function
             </script>
             <!--slideshow of promotions-->
             <section id="promotions">
