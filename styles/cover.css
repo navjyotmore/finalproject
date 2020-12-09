@@ -408,7 +408,7 @@
     background-image: url(/images/headwave1.jpg);
     background-repeat: no-repeat;
     max-width: 414px;
-    width: 95%;
+    width: 89%;
     margin: auto;
     border: 5px groove;
     padding: 0 20px;
@@ -459,9 +459,9 @@
   /*resource*/
   .maincontainer {
     display: flex;
-    flex-direction: column;
+      flex-direction: column;
   }
-
+ 
   /* container 1**/
   .container {
     display: flex;
@@ -571,13 +571,13 @@
   /*styling events*/
   .eventContainer {
     position: relative;
-    max-width: fit-content;
+  width: 87%;
     margin-bottom: 8px;
   }
 
   .eventContainer img {
     vertical-align: middle;
-    width:100%;
+    width:115%;
   }
 
   .eventContainer .event {
@@ -588,7 +588,7 @@
     background: rgba(0, 0, 0, 0.5);
     /* Black background with 0.5 opacity */
     color: #f1f1f1;
-    width: 100%;
+    width: 115%;
     padding: 20px 0;
   }
 
@@ -601,13 +601,13 @@
   /*styling promos*/
   .promotionContainer {
     position: relative;
-    max-width: fit-content;
+    max-width: 87%;
     margin-bottom: 8px;
   }
 
   .promotionContainer img {
     vertical-align: middle;
-    width: 100%;
+    width: 115%;
   }
 
   .promotionContainer .promo {
@@ -618,7 +618,7 @@
     background: rgba(0, 0, 0, 0.5);
     /* Black background with 0.5 opacity */
     color: #f1f1f1;
-    width: 100%;
+    width: 115%;
     padding: 20px 0;
   }
 
@@ -668,13 +668,13 @@
   /*styling membersip*/ 
   .membershipContainer {
     position: relative;
-    max-width: fit-content;
+    max-width: 90%;
     margin-bottom: 8px;
   }
 
   .membershipContainer img {
     vertical-align: middle;
-    width: 100%;
+    width: 111%;
     height:334px;
   }
 
@@ -686,7 +686,7 @@
     background: rgba(0, 0, 0, 0.5);
     /* Black background with 0.5 opacity */
     color: #f1f1f1;
-    width: 100%;
+    width: 111%;
     padding: 20px 0;
   }
 
@@ -787,8 +787,8 @@
     background-color: whitesmoke;
     background-image: url(/images/headwave2.jpg);
     background-repeat: no-repeat;
-    max-width: 860px;
-    width: 95%;
+   
+    max-width: 95%;
     margin: auto;
     border: 5px groove;
     padding: 0 20px;
@@ -853,13 +853,14 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 100%;
     margin: 8px auto;
   }
 
   /* designing of menu img */
   .menuContainer {
     position: relative;
-    max-width: fit-content;
+    max-width: 67%;
     margin-bottom: 8px;
   }
 
@@ -889,7 +890,7 @@
   /* designing of reservation img */
   .revContainer {
     position: relative;
-    max-width: fit-content;
+    max-width: 67%;
     margin-left: 10px;
     margin-bottom: 8px;
   }
@@ -925,7 +926,7 @@
 
   .orderContainer {
     position: relative;
-    width: 100%;
+    max-width: 88%;
   }
 
   .orderContainer .order {
@@ -1023,7 +1024,7 @@
 
   .careerContainer {
     position: relative;
-    width: 100%;
+    width: 88%;
   }
 
   .careerContainer .career {
@@ -1123,7 +1124,7 @@
 
   .contactContainer {
     position: relative;
-    width: 100%;
+    width: 88.2%;
   }
 
   .contactContainer .contact {
